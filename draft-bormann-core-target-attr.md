@@ -14,6 +14,7 @@ wg: CoRE Working group
 
 venue:
   mail: "core@ietf.org"
+  github: cabo/core-target-attr
 
 pi: [toc, sortrefs, symrefs, compact, comments]
 
