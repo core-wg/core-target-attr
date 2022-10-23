@@ -13,7 +13,7 @@ stream: IETF
 wg: CoRE Working group
 
 venue:
-  mail: core@ietf.org
+  mail: "core@ietf.org"
 
 pi: [toc, sortrefs, symrefs, compact, comments]
 
