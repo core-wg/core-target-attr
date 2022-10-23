@@ -5,7 +5,7 @@ title: >
   CoRE Target Attribute Registry
 abbrev: CoRE Target Attribute Registry
 docname: draft-bormann-core-target-attr-latest
-date: 2022-10-23
+# date: 2022-10-23
 
 keyword: Internet-Draft
 cat: info
