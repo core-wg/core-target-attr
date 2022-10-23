@@ -4,7 +4,7 @@ v: 3
 title: >
   CoRE Target Attribute Registry
 abbrev: CoRE Target Attribute Registry
-docname: draft-bormann-core-target-attr-00
+docname: draft-bormann-core-target-attr-latest
 date: 2022-10-23
 
 keyword: Internet-Draft
