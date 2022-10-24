@@ -144,6 +144,7 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | if              | interface description                                                                                      | IESG              | {{Section 3.2 of RFC6690}}                         |
 | sz              | maximum size estimate                                                                                      | IESG              | {{Section 3.3 of RFC6690}}                         |
 | ct              | Content-Format hint                                                                                        | IESG              | {{Section 7.2.1 of RFC7252}}                       |
+| hct             | HTTP-CoAP URI template                                                                                     | IESG              | {{Section 5 of ?RFC8075}}                          |
 | obs             | observable resource                                                                                        | IESG              | {{Section 6 of ?RFC7641}}                          |
 | osc             | hint: resource only accessible using OSCORE                                                                | IESG              | {{Section 9 of ?RFC8613}}                          |
 | oscore-gid      | Group ID of the OSCORE Group (join resource of the Group Manager)                                          | IESG              | {{Section 3 of ?I-D.tiloca-core-oscore-discovery}} |
