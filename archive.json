@@ -1,0 +1,98 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2022-10-25T02:40:04.830309+00:00",
+  "repo": "cabo/core-target-attr",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOISrGuM5UpCli",
+      "title": "`hct` from 8075 missing from the initial registration",
+      "url": "https://github.com/cabo/core-target-attr/issues/1",
+      "state": "OPEN",
+      "author": "thomas-fossati",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "`hct`, the HTTP-CoAP proxy URI template defined in [\u00a75.5 of RFC8075](https://www.rfc-editor.org/rfc/rfc8075.html#section-5.5) should be in the initial registration.",
+      "createdAt": "2022-10-24T01:30:30Z",
+      "updatedAt": "2022-10-24T01:30:30Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOISrGuM5BX5_c",
+      "title": "add `hct` to the initial registrations",
+      "url": "https://github.com/cabo/core-target-attr/pull/2",
+      "state": "OPEN",
+      "author": "thomas-fossati",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Fix #1 \r\n\r\nSigned-off-by: Thomas Fossati <thomas.fossati@arm.com>",
+      "createdAt": "2022-10-24T01:31:27Z",
+      "updatedAt": "2022-10-24T01:35:50Z",
+      "baseRepository": "cabo/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "85d11601a96c69522e6d9939491054b0a8545caa",
+      "headRepository": "thomas-fossati/core-target-attr",
+      "headRefName": "main",
+      "headRefOid": "7108895e03e1b2cb29ad01d68e1c47ed8adf99be",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
