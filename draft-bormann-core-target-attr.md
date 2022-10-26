@@ -148,6 +148,20 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | osc             | hint: resource only accessible using OSCORE                                                                | IESG              | {{Section 9 of ?RFC8613}}                            |
 | sec-gp          | Name of the security group that can be joined through this resource                                        | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
 | app-gp          | Name of an application group associated with a security group                                              | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| hkdf            | The HKDF algorithm to use                                                                                  | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| cred_fmt        | The format of authentication credential to use                                                             | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| sign_enc_alg    | The encryption algorithm to use for encrypting signed messages                                             | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| sign_alg        | The signature algorithm to use                                                                             | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| sign_alg_crv    | The elliptic curve of the used signature algorithm                                                         | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| sign_key_kty    | The key type of the used signing keys                                                                      | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| sign_key_crv    | The curve of the used signing keys                                                                         | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| alg             | The encryption algorithm to use for encrypting non-signed messages                                         | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| ecdh_alg        | The ECDH algorithm to use                                                                                  | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| ecdh_alg_crv    | The elliptic curve of the used ECDH algorithm                                                              | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| ecdh_key_kty    | The key type of the used ECDH keys                                                                         | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| ecdh_key_crv    | The curve of the used ECDH keys                                                                            | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| det_hash_alg    | The hash algorithm to use for computing deterministic requests                                             | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
+| rekeying_scheme | The rekeying scheme used to distribute new keying material                                                 | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
