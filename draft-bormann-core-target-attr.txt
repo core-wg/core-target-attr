@@ -4,8 +4,8 @@
 
 CoRE Working group                                            C. Bormann
 Internet-Draft                                    Universität Bremen TZI
-Intended status: Informational                           23 October 2022
-Expires: 26 April 2023
+Intended status: Informational                           28 October 2022
+Expires: 1 May 2023
 
 
                      CoRE Target Attribute Registry
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 April 2023.
+   This Internet-Draft will expire on 1 May 2023.
 
 Copyright Notice
 
@@ -149,88 +149,144 @@ Table of Contents
 
    Initial entries in this sub-registry are as listed in Table 1:
 
-   +=========+===========+==========+==================================+
-   |Attribute|Brief      |Change    |Reference                         |
-   |Name     |description|Controller|                                  |
-   +=========+===========+==========+==================================+
-   |href     |reserved   |IESG      |[RFC6690]                         |
-   |         |(not useful|          |                                  |
-   |         |as target  |          |                                  |
-   |         |attribute  |          |                                  |
-   |         |name)      |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |anchor   |reserved   |IESG      |[RFC6690]                         |
-   |         |(not useful|          |                                  |
-   |         |as target  |          |                                  |
-   |         |attribute  |          |                                  |
-   |         |name)      |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |rel      |reserved   |IESG      |[RFC6690]                         |
-   |         |(not useful|          |                                  |
-   |         |as target  |          |                                  |
-   |         |attribute  |          |                                  |
-   |         |name)      |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |rev      |reserved   |IESG      |[RFC6690]                         |
-   |         |(not useful|          |                                  |
-   |         |as target  |          |                                  |
-   |         |attribute  |          |                                  |
-   |         |name)      |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |hreflang |(Web       |IESG      |[RFC8288]                         |
-   |         |Linking)   |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |media    |(Web       |IESG      |[RFC8288]                         |
-   |         |Linking)   |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |title    |(Web       |IESG      |[RFC8288]                         |
-   |         |Linking)   |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |type     |(Web       |IESG      |[RFC8288]                         |
-   |         |Linking)   |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |rt       |resource   |IESG      |Section 3.1 of [RFC6690]          |
-   |         |type       |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |if       |interface  |IESG      |Section 3.2 of [RFC6690]          |
-   |         |description|          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |sz       |maximum    |IESG      |Section 3.3 of [RFC6690]          |
-   |         |size       |          |                                  |
-   |         |estimate   |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |ct       |Content-   |IESG      |Section 7.2.1 of [RFC7252]        |
-   |         |Format hint|          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |obs      |observable |IESG      |Section 6 of [RFC7641]            |
-   |         |resource   |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |osc      |hint:      |IESG      |Section 9 of [RFC8613]            |
-   |         |resource   |          |                                  |
-   |         |only       |          |                                  |
-   |         |accessible |          |                                  |
-   |         |using      |          |                                  |
-   |         |OSCORE     |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |oscore-  |Group ID of|IESG      |Section 3 of                      |
-   |gid      |the OSCORE |          |[I-D.tiloca-core-oscore-discovery]|
-   |         |Group (join|          |                                  |
-   |         |resource of|          |                                  |
-   |         |the Group  |          |                                  |
-   |         |Manager)   |          |                                  |
-   +---------+-----------+----------+----------------------------------+
-   |app-gp   |endpoint   |IESG      |Section 3 of                      |
-   |         |name of the|          |[I-D.tiloca-core-oscore-discovery]|
-   |         |application|          |                                  |
-   |         |group      |          |                                  |
-   |         |associated |          |                                  |
-   |         |to the     |          |                                  |
-   |         |OSCORE     |          |                                  |
-   |         |Group (join|          |                                  |
-   |         |resource of|          |                                  |
-   |         |the Group  |          |                                  |
-   |         |Manager)   |          |                                  |
-   +---------+-----------+----------+----------------------------------+
+   +===============+==============+==========+==================================+
+   |Attribute Name |Brief         |Change    |Reference                         |
+   |               |description   |Controller|                                  |
+   +===============+==============+==========+==================================+
+   |href           |reserved (not |IESG      |[RFC6690]                         |
+   |               |useful as     |          |                                  |
+   |               |target        |          |                                  |
+   |               |attribute     |          |                                  |
+   |               |name)         |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |anchor         |reserved (not |IESG      |[RFC6690]                         |
+   |               |useful as     |          |                                  |
+   |               |target        |          |                                  |
+   |               |attribute     |          |                                  |
+   |               |name)         |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |rel            |reserved (not |IESG      |[RFC6690]                         |
+   |               |useful as     |          |                                  |
+   |               |target        |          |                                  |
+   |               |attribute     |          |                                  |
+   |               |name)         |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |rev            |reserved (not |IESG      |[RFC6690]                         |
+   |               |useful as     |          |                                  |
+   |               |target        |          |                                  |
+   |               |attribute     |          |                                  |
+   |               |name)         |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |hreflang       |(Web Linking) |IESG      |[RFC8288]                         |
+   +---------------+--------------+----------+----------------------------------+
+   |media          |(Web Linking) |IESG      |[RFC8288]                         |
+   +---------------+--------------+----------+----------------------------------+
+   |title          |(Web Linking) |IESG      |[RFC8288]                         |
+   +---------------+--------------+----------+----------------------------------+
+   |type           |(Web Linking) |IESG      |[RFC8288]                         |
+   +---------------+--------------+----------+----------------------------------+
+   |rt             |resource type |IESG      |Section 3.1 of [RFC6690]          |
+   +---------------+--------------+----------+----------------------------------+
+   |if             |interface     |IESG      |Section 3.2 of [RFC6690]          |
+   |               |description   |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |sz             |maximum size  |IESG      |Section 3.3 of [RFC6690]          |
+   |               |estimate      |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ct             |Content-Format|IESG      |Section 7.2.1 of [RFC7252]        |
+   |               |hint          |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |obs            |observable    |IESG      |Section 6 of [RFC7641]            |
+   |               |resource      |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |osc            |hint: resource|IESG      |Section 9 of [RFC8613]            |
+   |               |only          |          |                                  |
+   |               |accessible    |          |                                  |
+   |               |using OSCORE  |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |sec-gp         |Name of the   |IESG      |Section 2.1 of                    |
+   |               |security group|          |[I-D.tiloca-core-oscore-discovery]|
+   |               |that can be   |          |                                  |
+   |               |joined through|          |                                  |
+   |               |this resource |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |app-gp         |Name of an    |IESG      |Section 2.1 of                    |
+   |               |application   |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |group         |          |                                  |
+   |               |associated    |          |                                  |
+   |               |with a        |          |                                  |
+   |               |security group|          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |hkdf           |The HKDF      |IESG      |Section 2.1 of                    |
+   |               |algorithm to  |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |use           |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |cred_fmt       |The format of |IESG      |Section 2.1 of                    |
+   |               |authentication|          |[I-D.tiloca-core-oscore-discovery]|
+   |               |credential to |          |                                  |
+   |               |use           |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |sign_enc_alg   |The encryption|IESG      |Section 2.1 of                    |
+   |               |algorithm to  |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |use for       |          |                                  |
+   |               |encrypting    |          |                                  |
+   |               |signed        |          |                                  |
+   |               |messages      |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |sign_alg       |The signature |IESG      |Section 2.1 of                    |
+   |               |algorithm to  |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |use           |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |sign_alg_crv   |The elliptic  |IESG      |Section 2.1 of                    |
+   |               |curve of the  |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |used signature|          |                                  |
+   |               |algorithm     |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |sign_key_kty   |The key type  |IESG      |Section 2.1 of                    |
+   |               |of the used   |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |signing keys  |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |sign_key_crv   |The curve of  |IESG      |Section 2.1 of                    |
+   |               |the used      |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |signing keys  |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |alg            |The encryption|IESG      |Section 2.1 of                    |
+   |               |algorithm to  |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |use for       |          |                                  |
+   |               |encrypting    |          |                                  |
+   |               |non-signed    |          |                                  |
+   |               |messages      |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ecdh_alg       |The ECDH      |IESG      |Section 2.1 of                    |
+   |               |algorithm to  |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |use           |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ecdh_alg_crv   |The elliptic  |IESG      |Section 2.1 of                    |
+   |               |curve of the  |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |used ECDH     |          |                                  |
+   |               |algorithm     |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ecdh_key_kty   |The key type  |IESG      |Section 2.1 of                    |
+   |               |of the used   |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |ECDH keys     |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ecdh_key_crv   |The curve of  |IESG      |Section 2.1 of                    |
+   |               |the used ECDH |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |keys          |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |det_hash_alg   |The hash      |IESG      |Section 2.1 of                    |
+   |               |algorithm to  |          |[I-D.tiloca-core-oscore-discovery]|
+   |               |use for       |          |                                  |
+   |               |computing     |          |                                  |
+   |               |deterministic |          |                                  |
+   |               |requests      |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |rekeying_scheme|The rekeying  |IESG      |Section 2.1 of                    |
+   |               |scheme used to|          |[I-D.tiloca-core-oscore-discovery]|
+   |               |distribute new|          |                                  |
+   |               |keying        |          |                                  |
+   |               |material      |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
 
          Table 1: Initial Entries in the Target Attributes Registry
 
