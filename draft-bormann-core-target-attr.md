@@ -50,6 +50,7 @@ informative:
   RFC5988: linking-old
   RFC9176: rd
   I-D.tiloca-core-oscore-discovery: odi
+  I-D.ietf-core-oscore-edhoc: oed
 
 --- abstract
 
@@ -164,15 +165,15 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | ecdh_key_crv    | The curve of the used ECDH keys                                     | IESG              | {{Section 2.1 of -odi}}                      |
 | det_hash_alg    | The hash algorithm to use for computing deterministic requests      | IESG              | {{Section 2.1 of -odi}}                      |
 | rekeying_scheme | The rekeying scheme used to distribute new keying material          | IESG              | {{Section 2.1 of -odi}}                      |
-| method          | A supported authentication method for EDHOC                         | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
-| csuite          | A supported cipher suite for EDHOC                                  | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
-| cred_t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
-| idcred_t        | A supported type of authentication credential identifier for EDHOC  | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
-| ead_1           | A supported EDHOC EAD_1 item                                        | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
-| ead_2           | A supported EDHOC EAD_2 item                                        | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
-| ead_3           | A supported EDHOC EAD_3 item                                        | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
-| ead_4           | A supported EDHOC EAD_4 item                                        | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
-| comb_req        | Hint: support for the EDHOC+OSCORE request                          | IESG              | {{Section 6 of ?I-D.ietf-core-oscore-edhoc}} |
+| method          | A supported authentication method for EDHOC                         | IESG              | {{Section 6 of -oed}} |
+| csuite          | A supported cipher suite for EDHOC                                  | IESG              | {{Section 6 of -oed}} |
+| cred_t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of -oed}} |
+| idcred_t        | A supported type of authentication credential identifier for EDHOC  | IESG              | {{Section 6 of -oed}} |
+| ead_1           | A supported EDHOC EAD_1 item                                        | IESG              | {{Section 6 of -oed}} |
+| ead_2           | A supported EDHOC EAD_2 item                                        | IESG              | {{Section 6 of -oed}} |
+| ead_3           | A supported EDHOC EAD_3 item                                        | IESG              | {{Section 6 of -oed}} |
+| ead_4           | A supported EDHOC EAD_4 item                                        | IESG              | {{Section 6 of -oed}} |
+| comb_req        | Hint: support for the EDHOC+OSCORE request                          | IESG              | {{Section 6 of -oed}} |
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
