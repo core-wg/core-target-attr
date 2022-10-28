@@ -145,6 +145,7 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | sz              | maximum size estimate                                                                                      | IESG              | {{Section 3.3 of RFC6690}}                           |
 | ct              | Content-Format hint                                                                                        | IESG              | {{Section 7.2.1 of RFC7252}}                         |
 | obs             | observable resource                                                                                        | IESG              | {{Section 6 of ?RFC7641}}                            |
+| hct             | HTTP-CoAP URI mapping template                                                                             | IESG              | {{Section 5 of ?RFC8075}}                          |
 | osc             | hint: resource only accessible using OSCORE                                                                | IESG              | {{Section 9 of ?RFC8613}}                            |
 | sec-gp          | Name of the security group that can be joined through this resource                                        | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
 | app-gp          | Name of an application group associated with a security group                                              | IESG              | {{Section 2.1 of ?I-D.tiloca-core-oscore-discovery}} |
