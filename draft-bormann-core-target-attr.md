@@ -47,10 +47,13 @@ normative:
 informative:
   RFC6690: link-format
   RFC7252: coap
+  RFC7641: obs
+  RFC8075: http-proxy
+  RFC8613: oscore
+  I-D.ietf-core-oscore-edhoc: oed
+  I-D.tiloca-core-oscore-discovery: odi
   RFC5988: linking-old
   RFC9176: rd
-  I-D.tiloca-core-oscore-discovery: odi
-  I-D.ietf-core-oscore-edhoc: oed
 
 --- abstract
 
@@ -146,9 +149,9 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | if              | interface description                                               | IESG              | {{Section 3.2 of RFC6690}}                   |
 | sz              | maximum size estimate                                               | IESG              | {{Section 3.3 of RFC6690}}                   |
 | ct              | Content-Format hint                                                 | IESG              | {{Section 7.2.1 of RFC7252}}                 |
-| obs             | observable resource                                                 | IESG              | {{Section 6 of ?RFC7641}}                    |
-| hct             | HTTP-CoAP URI mapping template                                      | IESG              | {{Section 5 of ?RFC8075}}                    |
-| osc             | hint: resource only accessible using OSCORE                         | IESG              | {{Section 9 of ?RFC8613}}                    |
+| obs             | observable resource                                                 | IESG              | {{Section 6 of RFC7641}}                     |
+| hct             | HTTP-CoAP URI mapping template                                      | IESG              | {{Section 5 of RFC8075}}                     |
+| osc             | hint: resource only accessible using OSCORE                         | IESG              | {{Section 9 of RFC8613}}                     |
 | method          | A supported authentication method for EDHOC                         | IESG              | {{Section 6 of -oed}} |
 | csuite          | A supported cipher suite for EDHOC                                  | IESG              | {{Section 6 of -oed}} |
 | cred_t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of -oed}} |
