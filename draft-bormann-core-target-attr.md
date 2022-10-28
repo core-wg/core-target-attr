@@ -136,47 +136,47 @@ Reference:
 
 Initial entries in this sub-registry are as listed in {{pre-reg}}:
 
-| Attribute  Name | Brief description                                                   | Change Controller | Reference                                  |
-| href            | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                                  |
-| anchor          | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                                  |
-| rel             | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                                  |
-| rev             | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                                  |
-| hreflang        | (Web Linking)                                                       | IESG              | {{-linking}}                                 |
-| media           | (Web Linking)                                                       | IESG              | {{-linking}}                                 |
-| title           | (Web Linking)                                                       | IESG              | {{-linking}}                                 |
-| type            | (Web Linking)                                                       | IESG              | {{-linking}}                                 |
-| rt              | resource type                                                       | IESG              | {{Section 3.1 of RFC6690}}                   |
-| if              | interface description                                               | IESG              | {{Section 3.2 of RFC6690}}                   |
-| sz              | maximum size estimate                                               | IESG              | {{Section 3.3 of RFC6690}}                   |
-| ct              | Content-Format hint                                                 | IESG              | {{Section 7.2.1 of RFC7252}}                 |
-| obs             | observable resource                                                 | IESG              | {{Section 6 of RFC7641}}                     |
-| hct             | HTTP-CoAP URI mapping template                                      | IESG              | {{Section 5 of RFC8075}}                     |
-| osc             | hint: resource only accessible using OSCORE                         | IESG              | {{Section 9 of RFC8613}}                     |
-| method          | A supported authentication method for EDHOC                         | IESG              | {{Section 6 of -oed}} |
-| csuite          | A supported cipher suite for EDHOC                                  | IESG              | {{Section 6 of -oed}} |
-| cred_t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of -oed}} |
-| idcred_t        | A supported type of authentication credential identifier for EDHOC  | IESG              | {{Section 6 of -oed}} |
-| ead_1           | A supported EDHOC EAD_1 item                                        | IESG              | {{Section 6 of -oed}} |
-| ead_2           | A supported EDHOC EAD_2 item                                        | IESG              | {{Section 6 of -oed}} |
-| ead_3           | A supported EDHOC EAD_3 item                                        | IESG              | {{Section 6 of -oed}} |
-| ead_4           | A supported EDHOC EAD_4 item                                        | IESG              | {{Section 6 of -oed}} |
-| comb_req        | Hint: support for the EDHOC+OSCORE request                          | IESG              | {{Section 6 of -oed}} |
-| sec-gp          | Name of the security group that can be joined through this resource | IESG              | {{Section 2.1 of -odi}}                      |
-| app-gp          | Name of an application group associated with a security group       | IESG              | {{Section 2.1 of -odi}}                      |
-| hkdf            | The HKDF algorithm to use                                           | IESG              | {{Section 2.1 of -odi}}                      |
-| cred_fmt        | The format of authentication credential to use                      | IESG              | {{Section 2.1 of -odi}}                      |
-| sign_enc_alg    | The encryption algorithm to use for encrypting signed messages      | IESG              | {{Section 2.1 of -odi}}                      |
-| sign_alg        | The signature algorithm to use                                      | IESG              | {{Section 2.1 of -odi}}                      |
-| sign_alg_crv    | The elliptic curve of the used signature algorithm                  | IESG              | {{Section 2.1 of -odi}}                      |
-| sign_key_kty    | The key type of the used signing keys                               | IESG              | {{Section 2.1 of -odi}}                      |
-| sign_key_crv    | The curve of the used signing keys                                  | IESG              | {{Section 2.1 of -odi}}                      |
-| alg             | The encryption algorithm to use for encrypting non-signed messages  | IESG              | {{Section 2.1 of -odi}}                      |
-| ecdh_alg        | The ECDH algorithm to use                                           | IESG              | {{Section 2.1 of -odi}}                      |
-| ecdh_alg_crv    | The elliptic curve of the used ECDH algorithm                       | IESG              | {{Section 2.1 of -odi}}                      |
-| ecdh_key_kty    | The key type of the used ECDH keys                                  | IESG              | {{Section 2.1 of -odi}}                      |
-| ecdh_key_crv    | The curve of the used ECDH keys                                     | IESG              | {{Section 2.1 of -odi}}                      |
-| det_hash_alg    | The hash algorithm to use for computing deterministic requests      | IESG              | {{Section 2.1 of -odi}}                      |
-| rekeying_scheme | The rekeying scheme used to distribute new keying material          | IESG              | {{Section 2.1 of -odi}}                      |
+| Attribute Name  | Brief description                                                   | Change Controller | Reference                  |
+| href            | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                  |
+| anchor          | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                  |
+| rel             | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                  |
+| rev             | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                  |
+| hreflang        | (Web Linking)                                                       | IESG              | {{-linking}}                 |
+| media           | (Web Linking)                                                       | IESG              | {{-linking}}                 |
+| title           | (Web Linking)                                                       | IESG              | {{-linking}}                 |
+| type            | (Web Linking)                                                       | IESG              | {{-linking}}                 |
+| rt              | resource type                                                       | IESG              | {{Section 3.1 of RFC6690}}   |
+| if              | interface description                                               | IESG              | {{Section 3.2 of RFC6690}}   |
+| sz              | maximum size estimate                                               | IESG              | {{Section 3.3 of RFC6690}}   |
+| ct              | Content-Format hint                                                 | IESG              | {{Section 7.2.1 of RFC7252}} |
+| obs             | observable resource                                                 | IESG              | {{Section 6 of RFC7641}}     |
+| hct             | HTTP-CoAP URI mapping template                                      | IESG              | {{Section 5 of RFC8075}}     |
+| osc             | hint: resource only accessible using OSCORE                         | IESG              | {{Section 9 of RFC8613}}     |
+| method          | A supported authentication method for EDHOC                         | IESG              | {{Section 6 of -oed}}        |
+| csuite          | A supported cipher suite for EDHOC                                  | IESG              | {{Section 6 of -oed}}        |
+| cred_t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of -oed}}        |
+| idcred_t        | A supported type of authentication credential identifier for EDHOC  | IESG              | {{Section 6 of -oed}}        |
+| ead_1           | A supported EDHOC EAD_1 item                                        | IESG              | {{Section 6 of -oed}}        |
+| ead_2           | A supported EDHOC EAD_2 item                                        | IESG              | {{Section 6 of -oed}}        |
+| ead_3           | A supported EDHOC EAD_3 item                                        | IESG              | {{Section 6 of -oed}}        |
+| ead_4           | A supported EDHOC EAD_4 item                                        | IESG              | {{Section 6 of -oed}}        |
+| comb_req        | Hint: support for the EDHOC+OSCORE request                          | IESG              | {{Section 6 of -oed}}        |
+| sec-gp          | Name of the security group that can be joined through this resource | IESG              | {{Section 2.1 of -odi}}      |
+| app-gp          | Name of an application group associated with a security group       | IESG              | {{Section 2.1 of -odi}}      |
+| hkdf            | The HKDF algorithm to use                                           | IESG              | {{Section 2.1 of -odi}}      |
+| cred_fmt        | The format of authentication credential to use                      | IESG              | {{Section 2.1 of -odi}}      |
+| sign_enc_alg    | The encryption algorithm to use for encrypting signed messages      | IESG              | {{Section 2.1 of -odi}}      |
+| sign_alg        | The signature algorithm to use                                      | IESG              | {{Section 2.1 of -odi}}      |
+| sign_alg_crv    | The elliptic curve of the used signature algorithm                  | IESG              | {{Section 2.1 of -odi}}      |
+| sign_key_kty    | The key type of the used signing keys                               | IESG              | {{Section 2.1 of -odi}}      |
+| sign_key_crv    | The curve of the used signing keys                                  | IESG              | {{Section 2.1 of -odi}}      |
+| alg             | The encryption algorithm to use for encrypting non-signed messages  | IESG              | {{Section 2.1 of -odi}}      |
+| ecdh_alg        | The ECDH algorithm to use                                           | IESG              | {{Section 2.1 of -odi}}      |
+| ecdh_alg_crv    | The elliptic curve of the used ECDH algorithm                       | IESG              | {{Section 2.1 of -odi}}      |
+| ecdh_key_kty    | The key type of the used ECDH keys                                  | IESG              | {{Section 2.1 of -odi}}      |
+| ecdh_key_crv    | The curve of the used ECDH keys                                     | IESG              | {{Section 2.1 of -odi}}      |
+| det_hash_alg    | The hash algorithm to use for computing deterministic requests      | IESG              | {{Section 2.1 of -odi}}      |
+| rekeying_scheme | The rekeying scheme used to distribute new keying material          | IESG              | {{Section 2.1 of -odi}}      |
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
