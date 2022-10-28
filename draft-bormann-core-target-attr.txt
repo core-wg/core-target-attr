@@ -208,6 +208,49 @@ Table of Contents
    |               |accessible    |          |                                  |
    |               |using OSCORE  |          |                                  |
    +---------------+--------------+----------+----------------------------------+
+   |method         |A supported   |IESG      |Section 6 of                      |
+   |               |authentication|          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |method for    |          |                                  |
+   |               |EDHOC         |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |csuite         |A supported   |IESG      |Section 6 of                      |
+   |               |cipher suite  |          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |for EDHOC     |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |cred_t         |A supported   |IESG      |Section 6 of                      |
+   |               |type of       |          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |authentication|          |                                  |
+   |               |credential for|          |                                  |
+   |               |EDHOC         |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |idcred_t       |A supported   |IESG      |Section 6 of                      |
+   |               |type of       |          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |authentication|          |                                  |
+   |               |credential    |          |                                  |
+   |               |identifier for|          |                                  |
+   |               |EDHOC         |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ead_1          |A supported   |IESG      |Section 6 of                      |
+   |               |EDHOC EAD_1   |          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |item          |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ead_2          |A supported   |IESG      |Section 6 of                      |
+   |               |EDHOC EAD_2   |          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |item          |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ead_3          |A supported   |IESG      |Section 6 of                      |
+   |               |EDHOC EAD_3   |          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |item          |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |ead_4          |A supported   |IESG      |Section 6 of                      |
+   |               |EDHOC EAD_4   |          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |item          |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
+   |comb_req       |Hint: support |IESG      |Section 6 of                      |
+   |               |for the       |          |[I-D.ietf-core-oscore-edhoc]      |
+   |               |EDHOC+OSCORE  |          |                                  |
+   |               |request       |          |                                  |
+   +---------------+--------------+----------+----------------------------------+
    |sec-gp         |Name of the   |IESG      |Section 2.1 of                    |
    |               |security group|          |[I-D.tiloca-core-oscore-discovery]|
    |               |that can be   |          |                                  |
@@ -290,49 +333,6 @@ Table of Contents
    |               |distribute new|          |                                  |
    |               |keying        |          |                                  |
    |               |material      |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |method         |A supported   |IESG      |Section 6 of                      |
-   |               |authentication|          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |method for    |          |                                  |
-   |               |EDHOC         |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |csuite         |A supported   |IESG      |Section 6 of                      |
-   |               |cipher suite  |          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |for EDHOC     |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |cred_t         |A supported   |IESG      |Section 6 of                      |
-   |               |type of       |          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |authentication|          |                                  |
-   |               |credential for|          |                                  |
-   |               |EDHOC         |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |idcred_t       |A supported   |IESG      |Section 6 of                      |
-   |               |type of       |          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |authentication|          |                                  |
-   |               |credential    |          |                                  |
-   |               |identifier for|          |                                  |
-   |               |EDHOC         |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |ead_1          |A supported   |IESG      |Section 6 of                      |
-   |               |EDHOC EAD_1   |          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |item          |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |ead_2          |A supported   |IESG      |Section 6 of                      |
-   |               |EDHOC EAD_2   |          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |item          |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |ead_3          |A supported   |IESG      |Section 6 of                      |
-   |               |EDHOC EAD_3   |          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |item          |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |ead_4          |A supported   |IESG      |Section 6 of                      |
-   |               |EDHOC EAD_4   |          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |item          |          |                                  |
-   +---------------+--------------+----------+----------------------------------+
-   |comb_req       |Hint: support |IESG      |Section 6 of                      |
-   |               |for the       |          |[I-D.ietf-core-oscore-edhoc]      |
-   |               |EDHOC+OSCORE  |          |                                  |
-   |               |request       |          |                                  |
    +---------------+--------------+----------+----------------------------------+
 
          Table 1: Initial Entries in the Target Attributes Registry
