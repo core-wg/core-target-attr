@@ -110,7 +110,7 @@ the CoRE Parameters registry {{!IANA.core-parameters}}, with the policy
 "expert review" ({{Section 4.5 of -ianacons}}).
 
 The expert is instructed to be frugal in the allocation of very short
-target attribute names, keeping them in reverse for applications that
+target attribute names, keeping them in reserve for applications that
 are likely to enjoy wide use and can make good use of their shortness.
 The expert is also instructed to direct the registrant to provide a
 specification ({{Section 4.6 of -ianacons}}), but can make exceptions,
