@@ -91,6 +91,12 @@ The current revision of that specification clarifies ({{Section 2.2 of -linking}
 This short note introduces an IANA registry for coordinating names of Target
 Attributes when used in Constrained RESTful Environments.
 
+With a registry now available, registration of target attributes is strongly encouraged.
+The incentive is that an unregistered attribute name might be registered with a different meaning at any time.
+(See also {{de-instructions}}.)
+
+
+
 Terminology
 -----------
 
@@ -104,12 +110,16 @@ the CoRE Parameters registry {{!IANA.core-parameters}}, with the policy
 "expert review" ({{Section 4.5 of -ianacons}}).
 
 The expert is instructed to be frugal in the allocation of very short
-target attribute names, keeping them in reverse for applications that
+target attribute names, keeping them in reserve for applications that
 are likely to enjoy wide use and can make good use of their shortness.
 The expert is also instructed to direct the registrant to provide a
 specification ({{Section 4.6 of -ianacons}}), but can make exceptions,
 for instance when a specification is not available at the time of
 registration but is likely forthcoming.
+If the expert becomes aware of target attributes that are deployed and
+in use, they may also initiate a registration on their own if
+they deem such a registration can avert potential future collisions.
+{: #de-instructions}
 
 Each entry in the registry must include:
 
