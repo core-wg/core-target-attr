@@ -40,7 +40,7 @@ normative:
   BCP26:
     -: ianacons
     =: RFC8126
-  STD90:
+  STD80:
     -: ascii
     =: RFC20
 
