@@ -4,8 +4,8 @@
 
 CoRE Working group                                            C. Bormann
 Internet-Draft                                    Universität Bremen TZI
-Intended status: Informational                           28 October 2022
-Expires: 1 May 2023
+Intended status: Informational                           6 November 2022
+Expires: 10 May 2023
 
 
                      CoRE Target Attribute Registry
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 1 May 2023.
+   This Internet-Draft will expire on 10 May 2023.
 
 Copyright Notice
 
@@ -104,6 +104,11 @@ Table of Contents
    This short note introduces an IANA registry for coordinating names of
    Target Attributes when used in Constrained RESTful Environments.
 
+   With a registry now available, registration of target attributes is
+   strongly encouraged.  The incentive is that an unregistered attribute
+   name might be registered with a different meaning at any time.  (See
+   also Section 2, Paragraph 2.)
+
 1.1.  Terminology
 
    The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
@@ -119,12 +124,15 @@ Table of Contents
    policy "expert review" (Section 4.5 of [BCP26]).
 
    The expert is instructed to be frugal in the allocation of very short
-   target attribute names, keeping them in reverse for applications that
+   target attribute names, keeping them in reserve for applications that
    are likely to enjoy wide use and can make good use of their
    shortness.  The expert is also instructed to direct the registrant to
    provide a specification (Section 4.6 of [BCP26]), but can make
    exceptions, for instance when a specification is not available at the
-   time of registration but is likely forthcoming.
+   time of registration but is likely forthcoming.  If the expert
+   becomes aware of target attributes that are deployed and in use, they
+   may also initiate a registration on their own if they deem such a
+   registration can avert potential future collisions.
 
    Each entry in the registry must include:
 
