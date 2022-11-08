@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-11-01T02:30:27.083286+00:00",
+  "timestamp": "2022-11-08T01:57:45.769051+00:00",
   "repo": "cabo/core-target-attr",
   "labels": [
     {
@@ -178,24 +178,26 @@
       "id": "PR_kwDOISrGuM5Bwn4n",
       "title": "More about mechanisms and incentives for avoiding collisions.",
       "url": "https://github.com/cabo/core-target-attr/pull/5",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "cabo",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "How to build strong encouragement without normative updating of existing standards.",
       "createdAt": "2022-10-28T15:41:17Z",
-      "updatedAt": "2022-10-30T14:07:33Z",
+      "updatedAt": "2022-11-06T15:44:45Z",
       "baseRepository": "cabo/core-target-attr",
       "baseRefName": "main",
       "baseRefOid": "b2022941bd259cae4e88e2da666e2a39007197e0",
       "headRepository": "cabo/core-target-attr",
       "headRefName": "avoid-collisions",
       "headRefOid": "95c57e425c6cee6d9b0e65ed260e8dd5edbdcd64",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2022-11-06T15:44:45Z",
+      "mergedAt": "2022-11-06T15:44:45Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "2fddbc3d90c80280542cc65207f46215ae591ada"
+      },
       "comments": [],
       "reviews": [
         {
@@ -212,6 +214,42 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOISrGuM5CSLMB",
+      "title": "s/json/ascii",
+      "url": "https://github.com/cabo/core-target-attr/pull/6",
+      "state": "MERGED",
+      "author": "thomas-fossati",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "ASCII is STD 80 -- STD 90 is JSON",
+      "createdAt": "2022-11-06T20:47:28Z",
+      "updatedAt": "2022-11-06T21:07:27Z",
+      "baseRepository": "cabo/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "2fddbc3d90c80280542cc65207f46215ae591ada",
+      "headRepository": "thomas-fossati/core-target-attr",
+      "headRefName": "patch-1",
+      "headRefOid": "339a9cf2b1cd15bce609bf90bfece31782947082",
+      "closedAt": "2022-11-06T21:07:17Z",
+      "mergedAt": "2022-11-06T21:07:17Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "0ac9e49bc9da5cfeb96ef2366a5b198f6fc0c0c6"
+      },
+      "comments": [
+        {
+          "author": "cabo",
+          "authorAssociation": "OWNER",
+          "body": "Thanks!\r\n",
+          "createdAt": "2022-11-06T21:07:27Z",
+          "updatedAt": "2022-11-06T21:07:27Z"
+        }
+      ],
+      "reviews": []
     }
   ]
 }
