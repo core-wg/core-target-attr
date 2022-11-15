@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-11-08T01:57:45.769051+00:00",
+  "timestamp": "2022-11-15T01:54:33.205021+00:00",
   "repo": "cabo/core-target-attr",
   "labels": [
     {
@@ -64,6 +64,22 @@
       "createdAt": "2022-10-24T01:30:30Z",
       "updatedAt": "2022-10-28T14:14:28Z",
       "closedAt": "2022-10-28T14:14:28Z",
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOISrGuM5WSsiT",
+      "title": "Attribute Name's length upper bounds",
+      "url": "https://github.com/cabo/core-target-attr/issues/7",
+      "state": "OPEN",
+      "author": "thomas-fossati",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "There are none at the moment, so this is left for the expert to decide.\r\nDoes it make sense setting an upper bound -- say, 16 or 32?",
+      "createdAt": "2022-11-14T09:58:22Z",
+      "updatedAt": "2022-11-14T09:58:22Z",
+      "closedAt": null,
       "comments": []
     }
   ],
