@@ -4,12 +4,12 @@
 
 CoRE Working group                                            C. Bormann
 Internet-Draft                                    Universität Bremen TZI
-Intended status: Informational                           6 November 2022
-Expires: 10 May 2023
+Intended status: Informational                          23 November 2022
+Expires: 27 May 2023
 
 
                      CoRE Target Attribute Registry
-                 draft-bormann-core-target-attr-latest
+                   draft-ietf-core-target-attr-latest
 
 Abstract
 
@@ -31,7 +31,7 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-bormann-core-target-attr/.
+   https://datatracker.ietf.org/doc/draft-ietf-core-target-attr/.
 
    Discussion of this document takes place on the core Working Group
    mailing list (mailto:core@ietf.org), which is archived at
@@ -39,7 +39,7 @@ About This Document
    https://www.ietf.org/mailman/listinfo/core/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/cabo/core-target-attr.
+   https://github.com/core-wg/core-target-attr.
 
 Status of This Memo
 
@@ -56,7 +56,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 May 2023.
+   This Internet-Draft will expire on 27 May 2023.
 
 Copyright Notice
 
@@ -365,7 +365,7 @@ Table of Contents
 
    [IANA.core-parameters]
               IANA, "Constrained RESTful Environments (CoRE)
-              Parameters", 8 June 2012,
+              Parameters",
               <https://www.iana.org/assignments/core-parameters>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
