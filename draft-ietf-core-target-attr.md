@@ -4,7 +4,7 @@ v: 3
 title: >
   CoRE Target Attribute Registry
 abbrev: CoRE Target Attribute Registry
-docname: draft-bormann-core-target-attr-latest
+docname: draft-ietf-core-target-attr-latest
 # date: 2022-10-23
 
 keyword: Internet-Draft
@@ -14,7 +14,7 @@ wg: CoRE Working group
 
 venue:
   mail: "core@ietf.org"
-  github: cabo/core-target-attr
+  github: core-wg/core-target-attr
 
 pi: [toc, sortrefs, symrefs, compact, comments]
 
