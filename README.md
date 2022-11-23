@@ -2,16 +2,16 @@
 
 This is the working area for the IETF [CORE Working Group](https://datatracker.ietf.org/wg/core/documents/) Internet-Draft, "CoRE Target Attribute Registry".
 
-* [Editor's Copy](https://cabo.github.io/core-target-attr/#go.draft-ietf-core-target-attr.html)
+* [Editor's Copy](https://core-wg.github.io/core-target-attr/#go.draft-ietf-core-target-attr.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-core-target-attr)
 * [Working Group Draft](https://datatracker.ietf.org/doc/html/draft-ietf-core-target-attr)
-* [Compare Editor's Copy to Working Group Draft](https://cabo.github.io/core-target-attr/#go.draft-ietf-core-target-attr.diff)
+* [Compare Editor's Copy to Working Group Draft](https://core-wg.github.io/core-target-attr/#go.draft-ietf-core-target-attr.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/cabo/core-target-attr/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/core-wg/core-target-attr/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
