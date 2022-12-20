@@ -50,6 +50,7 @@ informative:
   RFC7641: obs
   RFC8075: http-proxy
   RFC8613: oscore
+  I-D.ietf-core-oscore-groupcomm: gosc
   I-D.ietf-core-oscore-edhoc: oed
   I-D.tiloca-core-oscore-discovery: odi
   RFC5988: linking-old
@@ -162,6 +163,7 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | obs             | observable resource                                                 | IESG              | {{Section 6 of RFC7641}}     |
 | hct             | HTTP-CoAP URI mapping template                                      | IESG              | {{Section 5 of RFC8075}}     |
 | osc             | hint: resource only accessible using OSCORE                         | IESG              | {{Section 9 of RFC8613}}     |
+| gosc            | Hint: resource only accessible using Group OSCORE or OSCORE         | IESG              | {{Section 12 of -gosc}}      |
 | method          | A supported authentication method for EDHOC                         | IESG              | {{Section 6 of -oed}}        |
 | csuite          | A supported cipher suite for EDHOC                                  | IESG              | {{Section 6 of -oed}}        |
 | cred_t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of -oed}}        |
