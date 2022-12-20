@@ -166,13 +166,13 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | gosc            | Hint: resource only accessible using Group OSCORE or OSCORE         | IESG              | {{Section 12 of -gosc}}      |
 | method          | A supported authentication method for EDHOC                         | IESG              | {{Section 6 of -oed}}        |
 | csuite          | A supported cipher suite for EDHOC                                  | IESG              | {{Section 6 of -oed}}        |
-| cred_t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of -oed}}        |
-| idcred_t        | A supported type of authentication credential identifier for EDHOC  | IESG              | {{Section 6 of -oed}}        |
-| ead_1           | A supported EDHOC EAD_1 item                                        | IESG              | {{Section 6 of -oed}}        |
-| ead_2           | A supported EDHOC EAD_2 item                                        | IESG              | {{Section 6 of -oed}}        |
-| ead_3           | A supported EDHOC EAD_3 item                                        | IESG              | {{Section 6 of -oed}}        |
-| ead_4           | A supported EDHOC EAD_4 item                                        | IESG              | {{Section 6 of -oed}}        |
-| comb_req        | Hint: support for the EDHOC+OSCORE request                          | IESG              | {{Section 6 of -oed}}        |
+| cred-t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of -oed}}        |
+| idcred-t        | A supported type of authentication credential identifier for EDHOC  | IESG              | {{Section 6 of -oed}}        |
+| ead1            | A supported EDHOC EAD_1 item                                        | IESG              | {{Section 6 of -oed}}        |
+| ead2            | A supported EDHOC EAD_2 item                                        | IESG              | {{Section 6 of -oed}}        |
+| ead3            | A supported EDHOC EAD_3 item                                        | IESG              | {{Section 6 of -oed}}        |
+| ead4            | A supported EDHOC EAD_4 item                                        | IESG              | {{Section 6 of -oed}}        |
+| comb-req        | Hint: support for the EDHOC+OSCORE request                          | IESG              | {{Section 6 of -oed}}        |
 | sec-gp          | Name of the security group that can be joined through this resource | IESG              | {{Section 2.1 of -odi}}      |
 | app-gp          | Name of an application group associated with a security group       | IESG              | {{Section 2.1 of -odi}}      |
 | hkdf            | The HKDF algorithm to use                                           | IESG              | {{Section 2.1 of -odi}}      |
