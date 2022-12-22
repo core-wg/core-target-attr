@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2022-11-24T01:47:25.695648+00:00",
+  "timestamp": "2022-12-22T01:26:17.732733+00:00",
   "repo": "core-wg/core-target-attr",
   "labels": [
     {
@@ -124,7 +124,7 @@
       "labels": [],
       "body": "Fixed and added attributes from https://datatracker.ietf.org/doc/html/draft-tiloca-core-oscore-discovery-12#section-2.1",
       "createdAt": "2022-10-26T17:42:30Z",
-      "updatedAt": "2022-10-28T13:41:02Z",
+      "updatedAt": "2022-12-20T11:06:11Z",
       "baseRepository": "core-wg/core-target-attr",
       "baseRefName": "main",
       "baseRefOid": "85d11601a96c69522e6d9939491054b0a8545caa",
@@ -152,7 +152,7 @@
       "labels": [],
       "body": "Added attributes from https://datatracker.ietf.org/doc/html/draft-ietf-core-oscore-edhoc-05#section-6\r\n\r\nNoted while working on this PR:\r\n\r\n- Since these attributes are specific to EDHOC, they would better start with a related prefix, e.g., \"edhoc_\".\r\n   \r\n- Also due to an added prefix as above, we may want to shorten the name of some attribute.",
       "createdAt": "2022-10-26T17:44:26Z",
-      "updatedAt": "2022-10-28T14:10:32Z",
+      "updatedAt": "2022-12-20T11:06:10Z",
       "baseRepository": "core-wg/core-target-attr",
       "baseRefName": "main",
       "baseRefOid": "84861f83eb26436fbbb00729ea7f9ca692146d8b",
@@ -265,6 +265,32 @@
           "updatedAt": "2022-11-06T21:07:27Z"
         }
       ],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOISrGuM5F4ave",
+      "title": "Gosc and fixes",
+      "url": "https://github.com/core-wg/core-target-attr/pull/8",
+      "state": "OPEN",
+      "author": "marco-tiloca-sics",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-12-20T16:17:53Z",
+      "updatedAt": "2022-12-20T16:17:54Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "160b4a20f20c8eb1e2bc950c5bde30af3d1c1646",
+      "headRepository": "marco-tiloca-sics/core-target-attr",
+      "headRefName": "gosc-and-fixes",
+      "headRefOid": "ebf3002aec792ee017284abfe9464ee3ab2eb506",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
       "reviews": []
     }
   ]
