@@ -52,7 +52,6 @@ informative:
   RFC8613: oscore
   I-D.ietf-core-oscore-groupcomm: gosc
   I-D.ietf-core-oscore-edhoc: oed
-  I-D.tiloca-core-oscore-discovery: odi
   RFC5988: linking-old
   RFC9176: rd
 
@@ -127,7 +126,7 @@ Each entry in the registry must include:
 {:vspace}
 Attribute Name:
 : a lower case ASCII {{-ascii}} string that starts with a letter and can
-  contain digits and hyphen-minus characters afterwards
+  contain digits and hyphen-minus characters afterward
   (`[a-z][-a-z0-9]*`).
   (Note that {{-linking}} requires target attribute names to be
   interpreted in a case-insensitive way; the restriction to lower case
@@ -173,28 +172,23 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | ead3            | A supported EDHOC EAD_3 item                                        | IESG              | {{Section 6 of -oed}}        |
 | ead4            | A supported EDHOC EAD_4 item                                        | IESG              | {{Section 6 of -oed}}        |
 | comb-req        | Hint: support for the EDHOC+OSCORE request                          | IESG              | {{Section 6 of -oed}}        |
-| sec-gp          | Name of the security group that can be joined through this resource | IESG              | {{Section 2.1 of -odi}}      |
-| app-gp          | Name of an application group associated with a security group       | IESG              | {{Section 2.1 of -odi}}      |
-| hkdf            | The HKDF algorithm to use                                           | IESG              | {{Section 2.1 of -odi}}      |
-| cred_fmt        | The format of authentication credential to use                      | IESG              | {{Section 2.1 of -odi}}      |
-| sign_enc_alg    | The encryption algorithm to use for encrypting signed messages      | IESG              | {{Section 2.1 of -odi}}      |
-| sign_alg        | The signature algorithm to use                                      | IESG              | {{Section 2.1 of -odi}}      |
-| sign_alg_crv    | The elliptic curve of the used signature algorithm                  | IESG              | {{Section 2.1 of -odi}}      |
-| sign_key_kty    | The key type of the used signing keys                               | IESG              | {{Section 2.1 of -odi}}      |
-| sign_key_crv    | The curve of the used signing keys                                  | IESG              | {{Section 2.1 of -odi}}      |
-| alg             | The encryption algorithm to use for encrypting non-signed messages  | IESG              | {{Section 2.1 of -odi}}      |
-| ecdh_alg        | The ECDH algorithm to use                                           | IESG              | {{Section 2.1 of -odi}}      |
-| ecdh_alg_crv    | The elliptic curve of the used ECDH algorithm                       | IESG              | {{Section 2.1 of -odi}}      |
-| ecdh_key_kty    | The key type of the used ECDH keys                                  | IESG              | {{Section 2.1 of -odi}}      |
-| ecdh_key_crv    | The curve of the used ECDH keys                                     | IESG              | {{Section 2.1 of -odi}}      |
-| det_hash_alg    | The hash algorithm to use for computing deterministic requests      | IESG              | {{Section 2.1 of -odi}}      |
-| rekeying_scheme | The rekeying scheme used to distribute new keying material          | IESG              | {{Section 2.1 of -odi}}      |
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
-links other than target attributes, a further set is predefined in
+links other than target attributes, this includes a further set that
+is predefined in
 {{-linking}}.
 
+[^registration-note]
+
+[^registration-note]: This table includes some registrations from
+    drafts that are not yet published as an RFC.  Ideally, these RFCs
+    should make those registrations.  The entries here are insurance
+    in case the present draft gets stuck on the way and {{-gosc}} and/or
+    {{-oed}} get published as RFC first.  They also serve to give some
+    impression how the entries might grow, which may be useful for
+    discussing in the WGLC some policies for choosing attribute names.
+{: source="-- Carsten"}
 
 Security considerations
 =======================
