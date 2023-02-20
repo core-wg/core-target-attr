@@ -62,7 +62,7 @@ technologies to constrained environments.
 One important such technology is Web Linking (RFC 8288), which CoRE
 uses as the basis for a number of discovery protocols, such as the
 Link Format (RFC 6690) in CoAP's Resource Discovery Protocol (Section 7
-of RFC722) and the Resource Directory (RFC 9176).
+of RFC7252) and the Resource Directory (RFC 9176).
 
 Web Links can have Target Attributes, the names of which are not
 generally coordinated by the Web Linking specification (Section 2.2 of
