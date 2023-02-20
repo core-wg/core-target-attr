@@ -59,13 +59,14 @@ informative:
 
 The Constrained RESTful Environments (CoRE) specifications apply Web
 technologies to constrained environments.
-One important such technology is Web Linking {{-linking}}, which CoRE
+One important such technology is Web Linking (RFC 8288), which CoRE
 uses as the basis for a number of discovery protocols, such as the
-Link Format {{-link-format}} in CoAP's Resource Discovery Protocol ({{Section 7
-of -coap}}) and the Resource Directory {{-rd}}.
+Link Format (RFC 6690) in CoAP's Resource Discovery Protocol (Section 7
+of RFC722) and the Resource Directory (RFC 9176).
 
 Web Links can have Target Attributes, the names of which are not
-generally coordinated by the Web Linking specification ({{Section 2.2 of -linking}}).
+generally coordinated by the Web Linking specification (Section 2.2 of
+RFC 8288).
 This short note introduces an IANA registry for coordinating names of Target
 Attributes when used in Constrained RESTful Environments.
 
@@ -74,8 +75,15 @@ Attributes when used in Constrained RESTful Environments.
 Introduction        {#intro}
 ============
 
-(Please see abstract.)
 
+The Constrained RESTful Environments (CoRE) specifications apply Web
+technologies to constrained environments.
+One important such technology is Web Linking {{-linking}}, which CoRE
+uses as the basis for a number of discovery protocols, such as the
+Link Format {{-link-format}} in CoAP's Resource Discovery Protocol ({{Section 7
+of -coap}}) and the Resource Directory {{-rd}}.
+
+Web Links can have Target Attributes.
 The original Web Linking specification {{Section 3 of -linking-old}} did not attempt
 to coordinate names of target attributes except for providing common
 target attributes for use in the Link HTTP header.
@@ -88,13 +96,12 @@ The current revision of that specification clarifies ({{Section 2.2 of -linking}
    to avoid conflicts in semantics or syntax and MAY define their own
    registries of target attributes.
 
-This short note introduces an IANA registry for coordinating names of Target
-Attributes when used in Constrained RESTful Environments.
+This short note introduces an IANA registry for coordinating names of target
+attributes when used in Constrained RESTful Environments, with
+specific instructions for the designated expert for this registry ({{de-instructions}}).
 
 With a registry now available, registration of target attributes is strongly encouraged.
 The incentive is that an unregistered attribute name might be registered with a different meaning at any time.
-(See also {{de-instructions}}.)
-
 
 
 Terminology
