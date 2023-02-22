@@ -116,17 +116,30 @@ This specification defines a new sub-registry for Target Attributes in
 the CoRE Parameters registry {{!IANA.core-parameters}}, with the policy
 "expert review" ({{Section 4.5 of -ianacons}}).
 
+## Instructions for the Designated Expert {#de-instructions}
+
 The expert is instructed to be frugal in the allocation of very short
 target attribute names, keeping them in reserve for applications that
 are likely to enjoy wide use and can make good use of their shortness.
+
 The expert is also instructed to direct the registrant to provide a
 specification ({{Section 4.6 of -ianacons}}), but can make exceptions,
 for instance when a specification is not available at the time of
 registration but is likely forthcoming.
+
+Any questions or issues that might interest a wider audience might be
+raised by the expert on the core-parameters@ietf.org mailing list for
+a time-limited discussion.
+This might include security considerations, or opportunities for
+orchestration, e.g., when different names with similar intent are
+being or could be registered.
+
 If the expert becomes aware of target attributes that are deployed and
 in use, they may also initiate a registration on their own if
 they deem such a registration can avert potential future collisions.
-{: #de-instructions}
+
+
+## Structure of Entries
 
 Each entry in the registry must include:
 
@@ -150,6 +163,7 @@ Reference:
   attribute, including the semantics for when the target attribute
   appears more than once in a link.
 
+## Initial Entries
 
 Initial entries in this sub-registry are as listed in {{pre-reg}}:
 
