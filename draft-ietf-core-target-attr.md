@@ -223,4 +223,14 @@ Acknowledgements
 ================
 {: numbered="no"}
 
-TBD
+The CoRE WG had been discussing setting up a registry for target
+attributes since the final touches were made on {{-link-format}}.
+The update of the Web Linking specification to {{-linking}} provided the
+formal setting, but it took until {{{Jaime Jiménez}}} provided the set of
+initial registrations to generate a first version of this specification.
+The current version addresses additional input and working group last
+call comments by
+{{{Esko Dijk}}},
+{{{Marco Tiloca}}},
+and
+{{{Thomas Fossati}}}.
