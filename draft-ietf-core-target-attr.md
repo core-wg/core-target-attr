@@ -2,10 +2,10 @@
 v: 3
 
 title: >
-  CoRE Target Attribute Registry
-abbrev: CoRE Target Attribute Registry
+  CoRE Target Attributes Registry
+abbrev: CoRE Target Attributes Registry
 docname: draft-ietf-core-target-attr-latest
-# date: 2022-10-23
+# date: 2023-02-28
 
 keyword: Internet-Draft
 cat: info
@@ -61,14 +61,14 @@ The Constrained RESTful Environments (CoRE) specifications apply Web
 technologies to constrained environments.
 One important such technology is Web Linking (RFC 8288), which CoRE
 uses as the basis for a number of discovery protocols, such as the
-Link Format (RFC 6690) in CoAP's Resource Discovery Protocol (Section 7
+Link Format (RFC 6690) in CoAP's Resource Discovery Protocol (Section 7.2
 of RFC7252) and the Resource Directory (RFC 9176).
 
-Web Links can have Target Attributes, the names of which are not
+Web Links can have target attributes, the names of which are not
 generally coordinated by the Web Linking specification (Section 2.2 of
 RFC 8288).
-This short note introduces an IANA registry for coordinating names of Target
-Attributes when used in Constrained RESTful Environments.
+This short note introduces an IANA registry for coordinating names of target
+attributes when used in Constrained RESTful Environments.
 
 --- middle
 
@@ -80,11 +80,11 @@ The Constrained RESTful Environments (CoRE) specifications apply Web
 technologies to constrained environments.
 One important such technology is Web Linking {{-linking}}, which CoRE
 uses as the basis for a number of discovery protocols, such as the
-Link Format {{-link-format}} in CoAP's Resource Discovery Protocol ({{Section 7
+Link Format {{-link-format}} in CoAP's Resource Discovery Protocol ({{Section 7.2
 of -coap}}) and the Resource Directory {{-rd}}.
 
-Web Links can have Target Attributes.
-The original Web Linking specification {{Section 3 of -linking-old}} did not attempt
+Web Links can have target attributes.
+The original Web Linking specification ({{Section 3 of -linking-old}}) did not attempt
 to coordinate names of target attributes except for providing common
 target attributes for use in the Link HTTP header.
 The current revision of that specification clarifies ({{Section 2.2 of -linking}}):
@@ -112,9 +112,9 @@ Terminology
 IANA Considerations
 ===================
 
-This specification defines a new sub-registry for Target Attributes in
+This specification defines a new Target Attributes sub-registry in
 the CoRE Parameters registry {{!IANA.core-parameters}}, with the policy
-"expert review" ({{Section 4.5 of -ianacons}}).
+"Expert Review" ({{Section 4.5 of -ianacons}}).
 
 ## Instructions for the Designated Expert {#de-instructions}
 
