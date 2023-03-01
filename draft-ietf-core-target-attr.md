@@ -6,6 +6,7 @@ title: >
 abbrev: CoRE Target Attributes Registry
 docname: draft-ietf-core-target-attr-latest
 # date: 2023-03-01
+updates: 9176
 
 keyword: Internet-Draft
 cat: info
@@ -67,6 +68,8 @@ generally coordinated by the Web Linking specification (Section 2.2 of
 RFC 8288).
 This short note introduces an IANA registry for coordinating names of target
 attributes when used in Constrained RESTful Environments.
+It updates the RD Parameters Registry of RFC 9176 to coordinate with
+this registry.
 
 --- middle
 
@@ -165,28 +168,37 @@ Reference:
 
 Initial entries in this sub-registry are as listed in {{pre-reg}}:
 
-| Attribute Name  | Brief description                                                   | Change Controller | Reference                  |
-| href            | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                  |
-| anchor          | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                  |
-| rel             | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                  |
-| rev             | reserved (not useful as target attribute name)                      | IESG              | {{RFC6690}}                  |
-| hreflang        | (Web Linking)                                                       | IESG              | {{-linking}}                 |
-| media           | (Web Linking)                                                       | IESG              | {{-linking}}                 |
-| title           | (Web Linking)                                                       | IESG              | {{-linking}}                 |
-| type            | (Web Linking)                                                       | IESG              | {{-linking}}                 |
-| rt              | resource type                                                       | IESG              | {{Section 3.1 of RFC6690}}   |
-| if              | interface description                                               | IESG              | {{Section 3.2 of RFC6690}}   |
-| sz              | maximum size estimate                                               | IESG              | {{Section 3.3 of RFC6690}}   |
-| ct              | Content-Format hint                                                 | IESG              | {{Section 7.2.1 of RFC7252}} |
-| obs             | observable resource                                                 | IESG              | {{Section 6 of RFC7641}}     |
-| hct             | HTTP-CoAP URI mapping template                                      | IESG              | {{Section 5.5 of RFC8075}}   |
-| osc             | hint: resource only accessible using OSCORE                         | IESG              | {{Section 9 of RFC8613}}     |
+| Attribute Name | Brief description                              | Change Controller | Reference                  |
+| href           | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
+| anchor         | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
+| rel            | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
+| rev            | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
+| hreflang       | (Web Linking)                                  | IESG              | {{-linking}}                 |
+| media          | (Web Linking)                                  | IESG              | {{-linking}}                 |
+| title          | (Web Linking)                                  | IESG              | {{-linking}}                 |
+| type           | (Web Linking)                                  | IESG              | {{-linking}}                 |
+| rt             | resource type                                  | IESG              | {{Section 3.1 of RFC6690}}   |
+| if             | interface description                          | IESG              | {{Section 3.2 of RFC6690}}   |
+| sz             | maximum size estimate                          | IESG              | {{Section 3.3 of RFC6690}}   |
+| ct             | Content-Format hint                            | IESG              | {{Section 7.2.1 of RFC7252}} |
+| obs            | observable resource                            | IESG              | {{Section 6 of RFC7641}}     |
+| hct            | HTTP-CoAP URI mapping template                 | IESG              | {{Section 5.5 of RFC8075}}   |
+| osc            | hint: resource only accessible using OSCORE    | IESG              | {{Section 9 of RFC8613}}     |
+| ep             | Endpoint Name                                  | IESG              | {{Section 9.3 of RFC9176}}   |
+| d              | Sector                                         | IESG              | {{Section 9.3 of RFC9176}}   |
+| base           | Registration Base URI                          | IESG              | {{Section 9.3 of RFC9176}}   |
+| et             | Endpoint Type                                  | IESG              | {{Section 9.3 of RFC9176}}   |
+
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
 links other than target attributes, this includes a further set that
 is predefined in
 {{-linking}}.
+
+{{Section 9.3 of RFC9176}} defines the RD Parameters sub-registry.
+The present document updates this registry with a note that all
+entries with the "A" flag set MUST also get registered over here.
 
 Security considerations
 =======================
