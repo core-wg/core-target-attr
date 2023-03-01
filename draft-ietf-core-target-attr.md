@@ -5,7 +5,7 @@ title: >
   CoRE Target Attributes Registry
 abbrev: CoRE Target Attributes Registry
 docname: draft-ietf-core-target-attr-latest
-# date: 2023-02-28
+# date: 2023-03-01
 
 keyword: Internet-Draft
 cat: info
@@ -50,8 +50,6 @@ informative:
   RFC7641: obs
   RFC8075: http-proxy
   RFC8613: oscore
-  I-D.ietf-core-oscore-groupcomm: gosc
-  I-D.ietf-core-oscore-edhoc: oed
   RFC5988: linking-old
   RFC9176: rd
 
@@ -183,33 +181,12 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | obs             | observable resource                                                 | IESG              | {{Section 6 of RFC7641}}     |
 | hct             | HTTP-CoAP URI mapping template                                      | IESG              | {{Section 5.5 of RFC8075}}   |
 | osc             | hint: resource only accessible using OSCORE                         | IESG              | {{Section 9 of RFC8613}}     |
-| gosc            | Hint: resource only accessible using Group OSCORE or OSCORE         | IESG              | {{Section 12 of -gosc}}      |
-| method          | A supported authentication method for EDHOC                         | IESG              | {{Section 6 of -oed}}        |
-| csuite          | A supported cipher suite for EDHOC                                  | IESG              | {{Section 6 of -oed}}        |
-| cred-t          | A supported type of authentication credential for EDHOC             | IESG              | {{Section 6 of -oed}}        |
-| idcred-t        | A supported type of authentication credential identifier for EDHOC  | IESG              | {{Section 6 of -oed}}        |
-| ead1            | A supported EDHOC EAD_1 item                                        | IESG              | {{Section 6 of -oed}}        |
-| ead2            | A supported EDHOC EAD_2 item                                        | IESG              | {{Section 6 of -oed}}        |
-| ead3            | A supported EDHOC EAD_3 item                                        | IESG              | {{Section 6 of -oed}}        |
-| ead4            | A supported EDHOC EAD_4 item                                        | IESG              | {{Section 6 of -oed}}        |
-| comb-req        | Hint: support for the EDHOC+OSCORE request                          | IESG              | {{Section 6 of -oed}}        |
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
 links other than target attributes, this includes a further set that
 is predefined in
 {{-linking}}.
-
-[^registration-note]
-
-[^registration-note]: This table includes some registrations from
-    drafts that are not yet published as an RFC.  Ideally, these RFCs
-    should make those registrations.  The entries here are insurance
-    in case the present draft gets stuck on the way and {{-gosc}} and/or
-    {{-oed}} get published as RFC first.  They also serve to give some
-    impression how the entries might grow, which may be useful for
-    discussing in the WGLC some policies for choosing attribute names.
-{: source="-- Carsten"}
 
 Security considerations
 =======================
