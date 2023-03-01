@@ -188,7 +188,6 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | d              | Sector                                         | IESG              | {{Section 9.3 of RFC9176}}   |
 | base           | Registration Base URI                          | IESG              | {{Section 9.3 of RFC9176}}   |
 | et             | Endpoint Type                                  | IESG              | {{Section 9.3 of RFC9176}}   |
-
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
