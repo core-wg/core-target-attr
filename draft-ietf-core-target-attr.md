@@ -184,10 +184,10 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 | obs            | observable resource                            | IESG              | {{Section 6 of RFC7641}}     |
 | hct            | HTTP-CoAP URI mapping template                 | IESG              | {{Section 5.5 of RFC8075}}   |
 | osc            | hint: resource only accessible using OSCORE    | IESG              | {{Section 9 of RFC8613}}     |
-| ep             | Endpoint Name                                  | IESG              | {{Section 9.3 of RFC9176}}   |
-| d              | Sector                                         | IESG              | {{Section 9.3 of RFC9176}}   |
-| base           | Registration Base URI                          | IESG              | {{Section 9.3 of RFC9176}}   |
-| et             | Endpoint Type                                  | IESG              | {{Section 9.3 of RFC9176}}   |
+| ep             | Endpoint Name (with rt="core.rd-ep")           | IESG              | {{Section 9.3 of RFC9176}}   |
+| d              | Sector (with rt="core.rd-ep")                  | IESG              | {{Section 9.3 of RFC9176}}   |
+| base           | Registration Base URI (with rt="core.rd-ep")   | IESG              | {{Section 9.3 of RFC9176}}   |
+| et             | Endpoint Type (with rt="core.rd-ep")           | IESG              | {{Section 9.3 of RFC9176}}   |
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
