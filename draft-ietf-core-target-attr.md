@@ -66,7 +66,7 @@ of RFC7252) and the Resource Directory (RFC 9176).
 Web Links can have target attributes, the names of which are not
 generally coordinated by the Web Linking specification (Section 2.2 of
 RFC 8288).
-This short note introduces an IANA registry for coordinating names of target
+This document introduces an IANA registry for coordinating names of target
 attributes when used in Constrained RESTful Environments.
 It updates the RD Parameters Registry of RFC 9176 to coordinate with
 this registry.
@@ -97,9 +97,11 @@ The current revision of that specification clarifies ({{Section 2.2 of -linking}
    to avoid conflicts in semantics or syntax and MAY define their own
    registries of target attributes.
 
-This short note introduces an IANA registry for coordinating names of target
+This document introduces an IANA registry for coordinating names of target
 attributes when used in Constrained RESTful Environments, with
 specific instructions for the designated expert for this registry ({{de-instructions}}).
+It updates the RD Parameters Registry of {{-rd}} to coordinate with
+this registry.
 
 With a registry now available, registration of target attributes is strongly encouraged.
 The incentive is that an unregistered attribute name might be registered with a different meaning at any time.
@@ -191,7 +193,8 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
-links other than target attributes, this includes a further set that
+links other than target attributes.
+This includes a further set that
 is predefined in
 {{-linking}}.
 
