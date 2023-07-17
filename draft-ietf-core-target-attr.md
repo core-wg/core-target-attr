@@ -197,9 +197,8 @@ Initial entries in this sub-registry are as listed in {{pre-reg}}:
 
 A number of names are reserved as they are used for parameters in
 links other than target attributes.
-This includes a further set that
-is predefined in
-{{-linking}}.
+A further set of target attributes is predefined in {{-linking}} and is
+imported into this registry.
 
 {{Section 9.3 of RFC9176}} defines the RD Parameters sub-registry.
 The present document updates this registry with a note that all
