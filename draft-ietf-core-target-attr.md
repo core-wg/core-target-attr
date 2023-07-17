@@ -121,9 +121,12 @@ the CoRE Parameters registry {{!IANA.core-parameters}}, with the policy
 
 ## Instructions for the Designated Expert {#de-instructions}
 
-The expert is instructed to be frugal in the allocation of very short
-target attribute names, keeping them in reserve for applications that
-are likely to enjoy wide use and can make good use of their shortness.
+The expert is requested to guide the registrant towards reasonably
+short target attribute names where the shortness will help conserve
+resources in constrained systems, but also to be frugal in the
+allocation of very short names, keeping them in reserve for
+applications that are likely to enjoy wide use and can make good use
+of their shortness.
 
 The expert is also instructed to direct the registrant to provide a
 specification ({{Section 4.6 of -ianacons}}), but can make exceptions,
