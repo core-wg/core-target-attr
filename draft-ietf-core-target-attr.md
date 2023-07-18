@@ -58,17 +58,15 @@ informative:
 
 The Constrained RESTful Environments (CoRE) specifications apply Web
 technologies to constrained environments.
-One important such technology is Web Linking (RFC 8288), which CoRE
-uses as the basis for a number of discovery protocols, such as the
-Link Format (RFC 6690) in CoAP's Resource Discovery Protocol (Section 7.2
-of RFC7252) and the Resource Directory (RFC 9176).
+One important such a technology is Web Linking, which CoRE specifications
+use as the basis for a number of discovery protocols, e.g., the
+Link Format in CoAP's Resource Discovery Protocol and the Resource Directory (RD).
 
 Web Links can have target attributes, the names of which are not
-generally coordinated by the Web Linking specification (Section 2.2 of
-RFC 8288).
+generally coordinated by the Web Linking specification.
 This document introduces an IANA registry for coordinating names of target
-attributes when used in Constrained RESTful Environments.
-It updates the RD Parameters Registry of RFC 9176 to coordinate with
+attributes when used in CoRE.
+It updates the IANA RD Parameters registry to coordinate with
 this registry.
 
 --- middle
