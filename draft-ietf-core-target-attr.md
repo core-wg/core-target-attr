@@ -6,7 +6,7 @@ title: >
 abbrev: CoRE Target Attributes Registry
 docname: draft-ietf-core-target-attr-latest
 # date: 2023-03-01
-updates: 9176
+
 
 keyword: Internet-Draft
 cat: info
@@ -78,9 +78,9 @@ Introduction        {#intro}
 The Constrained RESTful Environments (CoRE) specifications apply Web
 technologies to constrained environments.
 One important such technology is Web Linking {{-linking}}, which CoRE
-uses as the basis for a number of discovery protocols, such as the
+uses as the basis for a number of discovery protocols, e.g., the
 Link Format {{-link-format}} in CoAP's Resource Discovery Protocol ({{Section 7.2
-of -coap}}) and the Resource Directory {{-rd}}.
+of -coap}}) and the Resource Directory (RD) {{-rd}}.
 
 Web Links can have target attributes.
 The original Web Linking specification ({{Section 3 of -linking-old}}) did not attempt
@@ -96,9 +96,9 @@ The current revision of that specification clarifies ({{Section 2.2 of -linking}
    registries of target attributes.
 
 This document introduces an IANA registry for coordinating names of target
-attributes when used in Constrained RESTful Environments, with
-specific instructions for the designated expert for this registry ({{de-instructions}}).
-It updates the RD Parameters Registry of {{-rd}} to coordinate with
+attributes when used in CoRE, with
+specific instructions for the Designated Expert for this registry ({{de-instructions}}).
+It adds a note to the RD Parameters Registry of {{-rd}} to coordinate with
 this registry.
 
 With a registry now available, registration of target attributes is strongly encouraged.
@@ -113,8 +113,8 @@ Terminology
 IANA Considerations
 ===================
 
-This specification defines a new Target Attributes sub-registry in
-the CoRE Parameters registry {{!IANA.core-parameters}}, with the policy
+This specification creates a new Target Attributes registry in
+the "Constrained RESTful Environments (CoRE) Parameters" registry group {{!IANA.core-parameters}}, with the policy
 "Expert Review" ({{Section 4.5 of -ianacons}}).
 
 ## Instructions for the Designated Expert {#de-instructions}
@@ -133,7 +133,7 @@ registration but is likely forthcoming.
 
 Any questions or issues that might interest a wider audience might be
 raised by the expert on the core-parameters@ietf.org mailing list for
-a time-limited discussion.
+a time-limited discussion (3 weeks, typically).
 This might include security considerations, or opportunities for
 orchestration, e.g., when different names with similar intent are
 being or could be registered.
@@ -160,7 +160,7 @@ Brief description:
 : a brief description
 
 Change Controller:
-: (see {{Section 2.3 of -ianacons}})
+: see {{Section 2.3 of -ianacons}}
 
 Reference:
 : a reference document that provides a description of the target
@@ -169,7 +169,7 @@ Reference:
 
 ## Initial Entries
 
-Initial entries in this sub-registry are as listed in {{pre-reg}}:
+Initial entries in this registry are listed in {{pre-reg}}.
 
 | Attribute Name | Brief description                              | Change Controller | Reference                  |
 | href           | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
@@ -198,9 +198,10 @@ links other than target attributes.
 A further set of target attributes is predefined in {{-linking}} and is
 imported into this registry.
 
-{{Section 9.3 of RFC9176}} defines the RD Parameters sub-registry.
-The present document updates this registry with a note that all
-entries with the "A" flag set MUST also get registered over here.
+{{Section 9.3 of RFC9176}} created the "RD Parameters" IANA registry.
+This document requests IANA to add the following note to that registry:
+
+> Note: All entries with the "A" flag set, including new ones, MUST also be registered in the "Target Attributes" registry {{!IANA.core-parameters}}.
 
 Security considerations
 =======================
