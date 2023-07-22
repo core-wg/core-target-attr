@@ -135,7 +135,7 @@ registration but is likely forthcoming.
 
 Any questions or issues that might interest a wider audience might be
 raised by the expert on the core-parameters@ietf.org mailing list for
-a time-limited discussion.
+a time-limited discussion (3 weeks, typically).
 This might include security considerations, or opportunities for
 orchestration, e.g., when different names with similar intent are
 being or could be registered.
