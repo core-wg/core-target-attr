@@ -226,7 +226,8 @@ The current version addresses additional input and working group last
 call comments by
 {{{Esko Dijk}}},
 {{{Marco Tiloca}}},
-and
 {{{Thomas Fossati}}},
-and area director review comments from
+and
+{{{Mohamed Boucadair}}},
+as well as area director review comments from
 {{{Rob Wilton}}}.
