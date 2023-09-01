@@ -1,0 +1,515 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-03-05T01:52:28.756386+00:00",
+  "repo": "core-wg/core-target-attr",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOISrGuM5UpCli",
+      "title": "`hct` from 8075 missing from the initial registration",
+      "url": "https://github.com/core-wg/core-target-attr/issues/1",
+      "state": "CLOSED",
+      "author": "thomas-fossati",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "`hct`, the HTTP-CoAP proxy URI template defined in [\u00a75.5 of RFC8075](https://www.rfc-editor.org/rfc/rfc8075.html#section-5.5) should be in the initial registration.",
+      "createdAt": "2022-10-24T01:30:30Z",
+      "updatedAt": "2022-10-28T14:14:28Z",
+      "closedAt": "2022-10-28T14:14:28Z",
+      "comments": []
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOISrGuM5WSsiT",
+      "title": "Attribute Name's length upper bounds",
+      "url": "https://github.com/core-wg/core-target-attr/issues/7",
+      "state": "CLOSED",
+      "author": "thomas-fossati",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "There are none at the moment, so this is left for the expert to decide.\r\nDoes it make sense setting an upper bound -- say, 16 or 32?",
+      "createdAt": "2022-11-14T09:58:22Z",
+      "updatedAt": "2023-02-01T13:55:04Z",
+      "closedAt": "2023-02-01T13:50:12Z",
+      "comments": [
+        {
+          "author": "cabo",
+          "authorAssociation": "MEMBER",
+          "body": "Interesting discussion over at netmod:\r\n\r\nEpic discussion thread starts at\r\nArchived-At: <https://mailarchive.ietf.org/arch/msg/cfrg/xEo-qO__Qe2jc6JCCy0eAZC6oM0>\r\n\r\nArtificial hard limits come back to bite you...\r\nhttps://www.rfc-editor.org/errata/eid7251\r\n\r\nI think the discussion has been against instituting some hard limit -- that either isn't very hard or it will bite when a longer name is needed for some reason we can't imagine just yet.",
+          "createdAt": "2023-02-01T13:50:12Z",
+          "updatedAt": "2023-02-01T13:55:04Z"
+        }
+      ]
+    }
+  ],
+  "pulls": [
+    {
+      "number": 2,
+      "id": "PR_kwDOISrGuM5BX5_c",
+      "title": "add `hct` to the initial registrations",
+      "url": "https://github.com/core-wg/core-target-attr/pull/2",
+      "state": "MERGED",
+      "author": "thomas-fossati",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fix #1 \r\n\r\nSigned-off-by: Thomas Fossati <thomas.fossati@arm.com>",
+      "createdAt": "2022-10-24T01:31:27Z",
+      "updatedAt": "2022-10-28T14:14:26Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "1c15cd138739daba977e1583c080817d490a42e1",
+      "headRepository": "thomas-fossati/core-target-attr",
+      "headRefName": "main",
+      "headRefOid": "4b80b410b280412245881eee6d962ee1139874c3",
+      "closedAt": "2022-10-28T14:14:26Z",
+      "mergedAt": "2022-10-28T14:14:26Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "9ec083d8cca28aa20bacff1111adf954508cbb31"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOISrGuM5BmsDc",
+      "title": "Attributes from -core-oscore-discovery",
+      "url": "https://github.com/core-wg/core-target-attr/pull/3",
+      "state": "MERGED",
+      "author": "marco-tiloca-sics",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixed and added attributes from https://datatracker.ietf.org/doc/html/draft-tiloca-core-oscore-discovery-12#section-2.1",
+      "createdAt": "2022-10-26T17:42:30Z",
+      "updatedAt": "2022-12-20T11:06:11Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "85d11601a96c69522e6d9939491054b0a8545caa",
+      "headRepository": "marco-tiloca-sics/core-target-attr",
+      "headRefName": "oscore-discovery",
+      "headRefOid": "58f161cb98802f5db41611cf355dcc7b30c2d0df",
+      "closedAt": "2022-10-28T13:41:02Z",
+      "mergedAt": "2022-10-28T13:41:02Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "84861f83eb26436fbbb00729ea7f9ca692146d8b"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOISrGuM5Bmszu",
+      "title": "Attributes from -core-oscore-edhoc",
+      "url": "https://github.com/core-wg/core-target-attr/pull/4",
+      "state": "MERGED",
+      "author": "marco-tiloca-sics",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Added attributes from https://datatracker.ietf.org/doc/html/draft-ietf-core-oscore-edhoc-05#section-6\r\n\r\nNoted while working on this PR:\r\n\r\n- Since these attributes are specific to EDHOC, they would better start with a related prefix, e.g., \"edhoc_\".\r\n   \r\n- Also due to an added prefix as above, we may want to shorten the name of some attribute.",
+      "createdAt": "2022-10-26T17:44:26Z",
+      "updatedAt": "2022-12-20T11:06:10Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "84861f83eb26436fbbb00729ea7f9ca692146d8b",
+      "headRepository": "marco-tiloca-sics/core-target-attr",
+      "headRefName": "oscore-edhoc",
+      "headRefOid": "22c034e37a89beb36c740a9f40b8b165d0e703ee",
+      "closedAt": "2022-10-28T14:10:32Z",
+      "mergedAt": "2022-10-28T14:10:32Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "1c15cd138739daba977e1583c080817d490a42e1"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOISrGuM5FJb11",
+          "commit": {
+            "abbreviatedOid": "e20f933"
+          },
+          "author": "cabo",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2022-10-28T13:50:36Z",
+          "updatedAt": "2022-10-28T13:50:37Z",
+          "comments": [
+            {
+              "originalPosition": 8,
+              "body": "This really should be item labels",
+              "createdAt": "2022-10-28T13:50:36Z",
+              "updatedAt": "2022-10-28T13:50:37Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOISrGuM5Bwn4n",
+      "title": "More about mechanisms and incentives for avoiding collisions.",
+      "url": "https://github.com/core-wg/core-target-attr/pull/5",
+      "state": "MERGED",
+      "author": "cabo",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "How to build strong encouragement without normative updating of existing standards.",
+      "createdAt": "2022-10-28T15:41:17Z",
+      "updatedAt": "2023-02-22T13:22:10Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "b2022941bd259cae4e88e2da666e2a39007197e0",
+      "headRepository": "core-wg/core-target-attr",
+      "headRefName": "avoid-collisions",
+      "headRefOid": "95c57e425c6cee6d9b0e65ed260e8dd5edbdcd64",
+      "closedAt": "2022-11-06T15:44:45Z",
+      "mergedAt": "2022-11-06T15:44:45Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "2fddbc3d90c80280542cc65207f46215ae591ada"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOISrGuM5FKUla",
+          "commit": {
+            "abbreviatedOid": "41a04bc"
+          },
+          "author": "thomas-fossati",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "\ud83d\udc4d ",
+          "createdAt": "2022-10-28T16:27:36Z",
+          "updatedAt": "2022-10-28T16:27:36Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOISrGuM5CSLMB",
+      "title": "s/json/ascii",
+      "url": "https://github.com/core-wg/core-target-attr/pull/6",
+      "state": "MERGED",
+      "author": "thomas-fossati",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "ASCII is STD 80 -- STD 90 is JSON",
+      "createdAt": "2022-11-06T20:47:28Z",
+      "updatedAt": "2022-11-06T21:07:27Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "2fddbc3d90c80280542cc65207f46215ae591ada",
+      "headRepository": "thomas-fossati/core-target-attr",
+      "headRefName": "patch-1",
+      "headRefOid": "339a9cf2b1cd15bce609bf90bfece31782947082",
+      "closedAt": "2022-11-06T21:07:17Z",
+      "mergedAt": "2022-11-06T21:07:17Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "0ac9e49bc9da5cfeb96ef2366a5b198f6fc0c0c6"
+      },
+      "comments": [
+        {
+          "author": "cabo",
+          "authorAssociation": "MEMBER",
+          "body": "Thanks!\r\n",
+          "createdAt": "2022-11-06T21:07:27Z",
+          "updatedAt": "2022-11-06T21:07:27Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOISrGuM5F4ave",
+      "title": "Gosc and fixes",
+      "url": "https://github.com/core-wg/core-target-attr/pull/8",
+      "state": "MERGED",
+      "author": "marco-tiloca-sics",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-12-20T16:17:53Z",
+      "updatedAt": "2023-01-16T09:08:59Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "160b4a20f20c8eb1e2bc950c5bde30af3d1c1646",
+      "headRepository": "marco-tiloca-sics/core-target-attr",
+      "headRefName": "gosc-and-fixes",
+      "headRefOid": "ebf3002aec792ee017284abfe9464ee3ab2eb506",
+      "closedAt": "2023-01-16T09:08:59Z",
+      "mergedAt": "2023-01-16T09:08:59Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "beaf1789f63d3d460eb3c11593f49e4de8a025a9"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOISrGuM5KV2dE",
+      "title": "(via Esko Dijk): Better section reference for RFC 8075",
+      "url": "https://github.com/core-wg/core-target-attr/pull/9",
+      "state": "MERGED",
+      "author": "cabo",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-02-20T12:36:45Z",
+      "updatedAt": "2023-02-22T13:22:07Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "dbf34f085faf4127869054f0e88f93955ced9d92",
+      "headRepository": "core-wg/core-target-attr",
+      "headRefName": "wglc-comments",
+      "headRefOid": "3e2bea9255f34b18d9ca3b6eadcb7d832bb8da2f",
+      "closedAt": "2023-02-20T21:20:42Z",
+      "mergedAt": "2023-02-20T21:20:42Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "c3a52fd5accb885a06297da4299acceeaa50877e"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOISrGuM5N1bEu",
+          "commit": {
+            "abbreviatedOid": "ad60ea5"
+          },
+          "author": "thomas-fossati",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-02-20T13:59:43Z",
+          "updatedAt": "2023-02-20T13:59:43Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOISrGuM5N2CoI",
+          "commit": {
+            "abbreviatedOid": "ad60ea5"
+          },
+          "author": "thomas-fossati",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-02-20T15:36:00Z",
+          "updatedAt": "2023-02-20T15:36:01Z",
+          "comments": [
+            {
+              "originalPosition": 10,
+              "body": "```suggestion\r\nof RFC7252) and the Resource Directory (RFC 9176).\r\n```",
+              "createdAt": "2023-02-20T15:36:01Z",
+              "updatedAt": "2023-02-20T15:36:01Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDOISrGuM5KYIzj",
+      "title": "Add expert instructions for mailing list usage",
+      "url": "https://github.com/core-wg/core-target-attr/pull/10",
+      "state": "MERGED",
+      "author": "cabo",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "Add structure to expert instructions as well as the entire IANA considerations section.",
+      "createdAt": "2023-02-20T21:33:40Z",
+      "updatedAt": "2023-02-22T13:22:04Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "c3a52fd5accb885a06297da4299acceeaa50877e",
+      "headRepository": "core-wg/core-target-attr",
+      "headRefName": "expert-instructions",
+      "headRefOid": "3b635924e772fa5173120aa38cfa0b0b2ddcd8b8",
+      "closedAt": "2023-02-22T10:15:53Z",
+      "mergedAt": "2023-02-22T10:15:53Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "c4985c2fd875a0acea6b844ce14e5c9ddf5126c8"
+      },
+      "comments": [
+        {
+          "author": "EskoDijk",
+          "authorAssociation": "NONE",
+          "body": "Thanks, this looks good!",
+          "createdAt": "2023-02-22T10:10:56Z",
+          "updatedAt": "2023-02-22T10:10:56Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOISrGuM5K8hXU",
+      "title": "(via Marco Tiloca): Various editorial improvements",
+      "url": "https://github.com/core-wg/core-target-attr/pull/11",
+      "state": "MERGED",
+      "author": "cabo",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-02-28T15:59:36Z",
+      "updatedAt": "2023-02-28T16:08:13Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "c4985c2fd875a0acea6b844ce14e5c9ddf5126c8",
+      "headRepository": "core-wg/core-target-attr",
+      "headRefName": "more-wglc-comments",
+      "headRefOid": "d42f74c14d3e58fdcc781b07994887812fe30fe9",
+      "closedAt": "2023-02-28T16:08:13Z",
+      "mergedAt": "2023-02-28T16:08:13Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "2c535af88f8d87dc781c8c19dd40ca45498b3f12"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOISrGuM5OjqAO",
+          "commit": {
+            "abbreviatedOid": "d42f74c"
+          },
+          "author": "marco-tiloca-sics",
+          "authorAssociation": "CONTRIBUTOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-02-28T16:07:33Z",
+          "updatedAt": "2023-02-28T16:07:33Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDOISrGuM5LCj0O",
+      "title": "Add RD Parameters Registry and related update",
+      "url": "https://github.com/core-wg/core-target-attr/pull/12",
+      "state": "MERGED",
+      "author": "cabo",
+      "authorAssociation": "MEMBER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-03-01T14:55:44Z",
+      "updatedAt": "2023-03-03T16:36:40Z",
+      "baseRepository": "core-wg/core-target-attr",
+      "baseRefName": "main",
+      "baseRefOid": "ff0857fe90231067a3ea210463e6c2cf0545fb3a",
+      "headRepository": "core-wg/core-target-attr",
+      "headRefName": "rd-parameters",
+      "headRefOid": "f6e45e3524166a9da57ba417cdd2c261537cf67e",
+      "closedAt": "2023-03-03T16:36:40Z",
+      "mergedAt": "2023-03-03T16:36:40Z",
+      "mergedBy": "cabo",
+      "mergeCommit": {
+        "oid": "b7bcb56ffffc50db8e7fb3c9d98daa174d033607"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOISrGuM5Ow8Eg",
+          "commit": {
+            "abbreviatedOid": "d14a791"
+          },
+          "author": "chrysn",
+          "authorAssociation": "MEMBER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-02T10:02:47Z",
+          "updatedAt": "2023-03-02T10:05:16Z",
+          "comments": [
+            {
+              "originalPosition": 68,
+              "body": "If IANA needs more than this line, I trust they will ask -- I think it's clear enough.",
+              "createdAt": "2023-03-02T10:02:47Z",
+              "updatedAt": "2023-03-02T10:05:16Z"
+            },
+            {
+              "originalPosition": 56,
+              "body": "These are limited in their use to endpoints in an RD; maybe introduce a means for indicating preconditions (eg. `rt=\"core.rd-ep\"` here). That doesn't mean we have to allow overlapping use.",
+              "createdAt": "2023-03-02T10:05:13Z",
+              "updatedAt": "2023-03-02T10:05:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOISrGuM5O6rQN",
+          "commit": {
+            "abbreviatedOid": "f6e45e3"
+          },
+          "author": "chrysn",
+          "authorAssociation": "MEMBER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-03-03T15:03:48Z",
+          "updatedAt": "2023-03-03T15:03:48Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
