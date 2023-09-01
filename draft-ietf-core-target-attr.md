@@ -174,25 +174,25 @@ Reference:
 Initial entries in this registry are listed in {{pre-reg}}.
 
 | Attribute Name | Brief description                              | Change Controller | Reference                  |
-| href           | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
-| anchor         | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
-| rel            | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
-| rev            | reserved (not useful as target attribute name) | IESG              | {{RFC6690}}                  |
-| hreflang       | (Web Linking)                                  | IESG              | {{-linking}}                 |
-| media          | (Web Linking)                                  | IESG              | {{-linking}}                 |
-| title          | (Web Linking)                                  | IESG              | {{-linking}}                 |
-| type           | (Web Linking)                                  | IESG              | {{-linking}}                 |
-| rt             | resource type                                  | IESG              | {{Section 3.1 of RFC6690}}   |
-| if             | interface description                          | IESG              | {{Section 3.2 of RFC6690}}   |
-| sz             | maximum size estimate                          | IESG              | {{Section 3.3 of RFC6690}}   |
-| ct             | Content-Format hint                            | IESG              | {{Section 7.2.1 of RFC7252}} |
-| obs            | observable resource                            | IESG              | {{Section 6 of RFC7641}}     |
-| hct            | HTTP-CoAP URI mapping template                 | IESG              | {{Section 5.5 of RFC8075}}   |
-| osc            | hint: resource only accessible using OSCORE    | IESG              | {{Section 9 of RFC8613}}     |
-| ep             | Endpoint Name (with rt="core.rd-ep")           | IESG              | {{Section 9.3 of RFC9176}}   |
-| d              | Sector (with rt="core.rd-ep")                  | IESG              | {{Section 9.3 of RFC9176}}   |
-| base           | Registration Base URI (with rt="core.rd-ep")   | IESG              | {{Section 9.3 of RFC9176}}   |
-| et             | Endpoint Type (with rt="core.rd-ep")           | IESG              | {{Section 9.3 of RFC9176}}   |
+| href           | reserved (not useful as target attribute name) | IETF              | {{RFC6690}}                  |
+| anchor         | reserved (not useful as target attribute name) | IETF              | {{RFC6690}}                  |
+| rel            | reserved (not useful as target attribute name) | IETF              | {{RFC6690}}                  |
+| rev            | reserved (not useful as target attribute name) | IETF              | {{RFC6690}}                  |
+| hreflang       | (Web Linking)                                  | IETF              | {{-linking}}                 |
+| media          | (Web Linking)                                  | IETF              | {{-linking}}                 |
+| title          | (Web Linking)                                  | IETF              | {{-linking}}                 |
+| type           | (Web Linking)                                  | IETF              | {{-linking}}                 |
+| rt             | resource type                                  | IETF              | {{Section 3.1 of RFC6690}}   |
+| if             | interface description                          | IETF              | {{Section 3.2 of RFC6690}}   |
+| sz             | maximum size estimate                          | IETF              | {{Section 3.3 of RFC6690}}   |
+| ct             | Content-Format hint                            | IETF              | {{Section 7.2.1 of RFC7252}} |
+| obs            | observable resource                            | IETF              | {{Section 6 of RFC7641}}     |
+| hct            | HTTP-CoAP URI mapping template                 | IETF              | {{Section 5.5 of RFC8075}}   |
+| osc            | hint: resource only accessible using OSCORE    | IETF              | {{Section 9 of RFC8613}}     |
+| ep             | Endpoint Name (with rt="core.rd-ep")           | IETF              | {{Section 9.3 of RFC9176}}   |
+| d              | Sector (with rt="core.rd-ep")                  | IETF              | {{Section 9.3 of RFC9176}}   |
+| base           | Registration Base URI (with rt="core.rd-ep")   | IETF              | {{Section 9.3 of RFC9176}}   |
+| et             | Endpoint Type (with rt="core.rd-ep")           | IETF              | {{Section 9.3 of RFC9176}}   |
 {: #pre-reg title="Initial Entries in the Target Attributes Registry"}
 
 A number of names are reserved as they are used for parameters in
