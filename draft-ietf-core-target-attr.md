@@ -203,7 +203,7 @@ imported into this registry.
 {{Section 9.3 of RFC9176}} created the "RD Parameters" IANA registry.
 This document requests IANA to add the following note to that registry:
 
-> Note: All entries with the "A" flag set, including new ones, MUST also be registered in the "Target Attributes" registry {{!IANA.core-parameters}}.
+> Note: In accordance with [this document], all entries with the "A" flag set, including new ones, MUST also be registered in the "Target Attributes" registry {{!IANA.core-parameters}}.
 
 Security considerations
 =======================
