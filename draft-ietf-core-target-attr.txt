@@ -4,9 +4,9 @@
 
 CoRE Working group                                            C. Bormann
 Internet-Draft                                    Universität Bremen TZI
-Updates: 9176 (if approved)                                 23 July 2023
+Updates: 9176 (if approved)                              11 October 2023
 Intended status: Informational                                          
-Expires: 24 January 2024
+Expires: 13 April 2024
 
 
                     CoRE Target Attributes Registry
@@ -53,9 +53,9 @@ Status of This Memo
 
 
 
-Bormann                  Expires 24 January 2024                [Page 1]
+Bormann                   Expires 13 April 2024                 [Page 1]
 
-Internet-Draft       CoRE Target Attributes Registry           July 2023
+Internet-Draft       CoRE Target Attributes Registry        October 2023
 
 
    Internet-Drafts are working documents of the Internet Engineering
@@ -68,7 +68,7 @@ Internet-Draft       CoRE Target Attributes Registry           July 2023
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 January 2024.
+   This Internet-Draft will expire on 13 April 2024.
 
 Copyright Notice
 
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Bormann                  Expires 24 January 2024                [Page 2]
+Bormann                   Expires 13 April 2024                 [Page 2]
 
-Internet-Draft       CoRE Target Attributes Registry           July 2023
+Internet-Draft       CoRE Target Attributes Registry        October 2023
 
 
 1.  Introduction
@@ -165,9 +165,9 @@ Internet-Draft       CoRE Target Attributes Registry           July 2023
 
 
 
-Bormann                  Expires 24 January 2024                [Page 3]
+Bormann                   Expires 13 April 2024                 [Page 3]
 
-Internet-Draft       CoRE Target Attributes Registry           July 2023
+Internet-Draft       CoRE Target Attributes Registry        October 2023
 
 
 2.1.  Instructions for the Designated Expert
@@ -221,9 +221,9 @@ Internet-Draft       CoRE Target Attributes Registry           July 2023
 
 
 
-Bormann                  Expires 24 January 2024                [Page 4]
+Bormann                   Expires 13 April 2024                 [Page 4]
 
-Internet-Draft       CoRE Target Attributes Registry           July 2023
+Internet-Draft       CoRE Target Attributes Registry        October 2023
 
 
 2.3.  Initial Entries
@@ -234,65 +234,65 @@ Internet-Draft       CoRE Target Attributes Registry           July 2023
    | Attribute | Brief description       | Change     | Reference     |
    | Name      |                         | Controller |               |
    +===========+=========================+============+===============+
-   | href      | reserved (not useful as | IESG       | [RFC6690]     |
+   | href      | reserved (not useful as | IETF       | [RFC6690]     |
    |           | target attribute name)  |            |               |
    +-----------+-------------------------+------------+---------------+
-   | anchor    | reserved (not useful as | IESG       | [RFC6690]     |
+   | anchor    | reserved (not useful as | IETF       | [RFC6690]     |
    |           | target attribute name)  |            |               |
    +-----------+-------------------------+------------+---------------+
-   | rel       | reserved (not useful as | IESG       | [RFC6690]     |
+   | rel       | reserved (not useful as | IETF       | [RFC6690]     |
    |           | target attribute name)  |            |               |
    +-----------+-------------------------+------------+---------------+
-   | rev       | reserved (not useful as | IESG       | [RFC6690]     |
+   | rev       | reserved (not useful as | IETF       | [RFC6690]     |
    |           | target attribute name)  |            |               |
    +-----------+-------------------------+------------+---------------+
-   | hreflang  | (Web Linking)           | IESG       | [RFC8288]     |
+   | hreflang  | (Web Linking)           | IETF       | [RFC8288]     |
    +-----------+-------------------------+------------+---------------+
-   | media     | (Web Linking)           | IESG       | [RFC8288]     |
+   | media     | (Web Linking)           | IETF       | [RFC8288]     |
    +-----------+-------------------------+------------+---------------+
-   | title     | (Web Linking)           | IESG       | [RFC8288]     |
+   | title     | (Web Linking)           | IETF       | [RFC8288]     |
    +-----------+-------------------------+------------+---------------+
-   | type      | (Web Linking)           | IESG       | [RFC8288]     |
+   | type      | (Web Linking)           | IETF       | [RFC8288]     |
    +-----------+-------------------------+------------+---------------+
-   | rt        | resource type           | IESG       | Section 3.1   |
+   | rt        | resource type           | IETF       | Section 3.1   |
    |           |                         |            | of [RFC6690]  |
    +-----------+-------------------------+------------+---------------+
-   | if        | interface description   | IESG       | Section 3.2   |
+   | if        | interface description   | IETF       | Section 3.2   |
    |           |                         |            | of [RFC6690]  |
    +-----------+-------------------------+------------+---------------+
-   | sz        | maximum size estimate   | IESG       | Section 3.3   |
+   | sz        | maximum size estimate   | IETF       | Section 3.3   |
    |           |                         |            | of [RFC6690]  |
    +-----------+-------------------------+------------+---------------+
-   | ct        | Content-Format hint     | IESG       | Section 7.2.1 |
+   | ct        | Content-Format hint     | IETF       | Section 7.2.1 |
    |           |                         |            | of [RFC7252]  |
    +-----------+-------------------------+------------+---------------+
-   | obs       | observable resource     | IESG       | Section 6 of  |
+   | obs       | observable resource     | IETF       | Section 6 of  |
    |           |                         |            | [RFC7641]     |
    +-----------+-------------------------+------------+---------------+
-   | hct       | HTTP-CoAP URI mapping   | IESG       | Section 5.5   |
+   | hct       | HTTP-CoAP URI mapping   | IETF       | Section 5.5   |
    |           | template                |            | of [RFC8075]  |
    +-----------+-------------------------+------------+---------------+
-   | osc       | hint: resource only     | IESG       | Section 9 of  |
+   | osc       | hint: resource only     | IETF       | Section 9 of  |
    |           | accessible using OSCORE |            | [RFC8613]     |
 
 
 
-Bormann                  Expires 24 January 2024                [Page 5]
+Bormann                   Expires 13 April 2024                 [Page 5]
 
-Internet-Draft       CoRE Target Attributes Registry           July 2023
+Internet-Draft       CoRE Target Attributes Registry        October 2023
 
 
    +-----------+-------------------------+------------+---------------+
-   | ep        | Endpoint Name (with     | IESG       | Section 9.3   |
+   | ep        | Endpoint Name (with     | IETF       | Section 9.3   |
    |           | rt="core.rd-ep")        |            | of [RFC9176]  |
    +-----------+-------------------------+------------+---------------+
-   | d         | Sector (with            | IESG       | Section 9.3   |
+   | d         | Sector (with            | IETF       | Section 9.3   |
    |           | rt="core.rd-ep")        |            | of [RFC9176]  |
    +-----------+-------------------------+------------+---------------+
-   | base      | Registration Base URI   | IESG       | Section 9.3   |
+   | base      | Registration Base URI   | IETF       | Section 9.3   |
    |           | (with rt="core.rd-ep")  |            | of [RFC9176]  |
    +-----------+-------------------------+------------+---------------+
-   | et        | Endpoint Type (with     | IESG       | Section 9.3   |
+   | et        | Endpoint Type (with     | IETF       | Section 9.3   |
    |           | rt="core.rd-ep")        |            | of [RFC9176]  |
    +-----------+-------------------------+------------+---------------+
 
@@ -307,9 +307,9 @@ Internet-Draft       CoRE Target Attributes Registry           July 2023
    This document requests IANA to add the following note to that
    registry:
 
-      Note: All entries with the "A" flag set, including new ones, MUST
-      also be registered in the "Target Attributes" registry
-      [IANA.core-parameters].
+      Note: In accordance with [this document], all entries with the "A"
+      flag set, including new ones, MUST also be registered in the
+      "Target Attributes" registry [IANA.core-parameters].
 
 3.  Security considerations
 
@@ -328,14 +328,14 @@ Internet-Draft       CoRE Target Attributes Registry           July 2023
    [IANA.core-parameters]
               IANA, "Constrained RESTful Environments (CoRE)
               Parameters",
-              <https://www.iana.org/assignments/core-parameters>.
+              <http://www.iana.org/assignments/core-parameters>.
 
 
 
 
-Bormann                  Expires 24 January 2024                [Page 6]
+Bormann                   Expires 13 April 2024                 [Page 6]
 
-Internet-Draft       CoRE Target Attributes Registry           July 2023
+Internet-Draft       CoRE Target Attributes Registry        October 2023
 
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
@@ -389,9 +389,9 @@ Internet-Draft       CoRE Target Attributes Registry           July 2023
 
 
 
-Bormann                  Expires 24 January 2024                [Page 7]
+Bormann                   Expires 13 April 2024                 [Page 7]
 
-Internet-Draft       CoRE Target Attributes Registry           July 2023
+Internet-Draft       CoRE Target Attributes Registry        October 2023
 
 
    [RFC9176]  Amsüss, C., Ed., Shelby, Z., Koster, M., Bormann, C., and
@@ -445,4 +445,4 @@ Author's Address
 
 
 
-Bormann                  Expires 24 January 2024                [Page 8]
+Bormann                   Expires 13 April 2024                 [Page 8]
